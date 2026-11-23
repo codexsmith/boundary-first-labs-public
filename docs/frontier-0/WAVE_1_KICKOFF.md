@@ -40,7 +40,7 @@ The proposed **Viability Control Theory for Wicked Systems** wording is a curren
 
 - No raw chats, private Lab folder trees, internal registries, unreleased research bytes or private source URLs are reproduced in this public candidate.
 - Current public evidence anchor remains the [n-ball educational release](../../projects/n-ball-boundary-recursion/README.md); it is not a validator of other mathematics or physics research.
-- The in-flight Codexware MVP is **read-only public-domain instrumentation for evidenced explanation and planning**, not an agent authorized to execute real-world institutional actions.
+- The in-flight Codexware MVP is **read-only public-data instrumentation for evidenced explanation and planning**, not an agent authorized to execute real-world institutional actions.
 - A search that finds no matching implementation does not establish that the implementation does not exist.
 - The newest architecture is a useful *search baseline*, not a premise that older counterexamples are wrong.
 
