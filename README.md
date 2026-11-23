@@ -16,6 +16,7 @@ Our work connects established mathematics, computer science, formal methods, and
 
 - **[Start here](start-here/README.md):** a public orientation and reading path.
 - **[About](about/README.md), [Method](method/README.md), [Theory](theory/README.md):** the institution, portable practice, and bounded formal research program are distinct.
+- **[Institutional principles](about/principles/README.md):** public ethics and design commitments, including **[Collaboration by Construction](about/principles/collaboration-by-construction.md)**.
 - **[Research](research/README.md):** discipline-based reader guides (mathematics, physics, computing, and consequential systems).
 - **[Projects](projects/README.md):** the owners of released source, evidence, claims, and scoped licensing.
 - **[Publications](publications/README.md) and [Software](software/README.md):** catalogs pointing back to one project owner.
