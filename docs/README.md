@@ -17,6 +17,7 @@ This is the map for **public contributors and readers**, not the private Lab's c
 - [LICENSES](../LICENSES/README.md): scoped license texts when actually approved.
 - [Decisions](decisions/README.md): why this structure and its rights boundaries exist.
 - [Recovery protocol — RCBF-001](REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md): candidate reverse-chronological, breadth-first public presentation strategy; not an executed archival recovery or source authority.
+- [Frontier 0 — current presentation baseline](frontier-0/README.md): initial eight-facet manifest, public evidence anchor, and read-only Demonstration Atlas; not a complete source recovery.
 - [Templates](templates/README.md): non-released examples for future work.
 
 ## Public-state rule
