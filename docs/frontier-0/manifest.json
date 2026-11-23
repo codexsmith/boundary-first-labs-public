@@ -5,8 +5,8 @@
   "lifecycle": "candidate_public_projection",
   "scope": "Initial public-facing Frontier-0 inventory, including candidate consequential-systems research highlights; not a private-corpus census, verification of the Codexware build, or an execution record",
   "source_posture": {
-    "source_class": "bounded_visible_conversation_plus_selected_public_repository_files",
-    "completeness": "selected_public_sources_only",
+    "source_class": "bounded_visible_conversation_plus_selected_public_documents_and_private_owner_excerpts",
+    "completeness": "bounded_selected_public_files_and_private_source_excerpts_not_lossless",
     "private_canonical_sources_reviewed_exhaustively": false,
     "chatgpt_conversation_url": null,
     "conversation_locator_public_disclosure": "withheld_pending_explicit_disclosure_clearance",
@@ -190,7 +190,8 @@
       "coverage_state": "seed_only",
       "basis": [
         "founder_visible_conversation",
-        "public_repository_navigation"
+        "public_repository_navigation",
+        "bounded_private_canonical_source_read"
       ],
       "public_refs": [
         "method/BOUNDARY_FIRST_FIELD_GUIDE.md",
