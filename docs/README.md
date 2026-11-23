@@ -16,6 +16,7 @@ This is the map for **public contributors and readers**, not the private Lab's c
 - [History](../history/README.md): public release corrections and supersession.
 - [LICENSES](../LICENSES/README.md): scoped license texts when actually approved.
 - [Decisions](decisions/README.md): why this structure and its rights boundaries exist.
+- [Recovery protocol — RCBF-001](REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md): candidate reverse-chronological, breadth-first public presentation strategy; not an executed archival recovery or source authority.
 - [Templates](templates/README.md): non-released examples for future work.
 
 ## Public-state rule
