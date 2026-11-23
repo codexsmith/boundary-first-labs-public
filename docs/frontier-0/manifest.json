@@ -1,0 +1,394 @@
+{
+  "schema_version": "0.1",
+  "manifest_id": "RCBF-F0-PUBLIC-CANDIDATE-2026-11-23",
+  "as_of": "2026-11-23",
+  "lifecycle": "candidate_public_projection",
+  "scope": "Initial public-facing Frontier-0 inventory, not a private-corpus census or execution record",
+  "source_posture": {
+    "source_class": "bounded_visible_conversation_plus_selected_public_repository_files",
+    "completeness": "selected_public_sources_only",
+    "private_canonical_sources_reviewed_exhaustively": false,
+    "chatgpt_conversation_url": null,
+    "conversation_locator_public_disclosure": "withheld_pending_explicit_disclosure_clearance",
+    "rights_policy": "LICENSING.md",
+    "publication_policy": "PUBLICATION_POLICY.md",
+    "provenance_policy": "INTELLECTUAL_PROVENANCE.md"
+  },
+  "authority": {
+    "public_projection_only": true,
+    "may_promote_research_claims": false,
+    "may_grant_license": false,
+    "may_trigger_external_actions": false,
+    "private_lab_remains_source_authority": true
+  },
+  "temporal_policy": {
+    "frontier_zero_type": "versioned_contemporary_baseline",
+    "recovery_direction": "reverse_chronological",
+    "traversal": "breadth_first_across_eight_facets",
+    "date_priority": "original_source_creation_or_observation_date",
+    "dates_recorded_separately": [
+      "original",
+      "revised",
+      "committed",
+      "imported",
+      "reviewed",
+      "published"
+    ],
+    "unknown_date_handling": "explicit_undated_queue",
+    "targeted_older_evidence_exception": "record_and_return_to_shared_frontier",
+    "window_selection": "adaptive_not_yet_fixed"
+  },
+  "public_nodes": [
+    {
+      "node_id": "bfl-method",
+      "node_kind": "public_method_exposition",
+      "title": "Boundary First — Method",
+      "public_path": "method/README.md",
+      "lifecycle": "public_documentation"
+    },
+    {
+      "node_id": "rcbf-001",
+      "node_kind": "recovery_protocol",
+      "title": "RCBF-001 — Recovery protocol",
+      "public_path": "docs/REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md",
+      "lifecycle": "candidate_presentation_architecture"
+    },
+    {
+      "node_id": "n-ball-educational-calibration",
+      "node_kind": "released_educational_project",
+      "title": "The n-Ball: Construction, Recursion, and What a Summary Forgets",
+      "public_path": "projects/n-ball-boundary-recursion/README.md",
+      "lifecycle": "published_educational_exposition",
+      "release_id": "BFL-PUB-EDU-NBALL-20261123-01"
+    },
+    {
+      "node_id": "facet-codexware",
+      "node_kind": "presentation_facet",
+      "title": "Public Codexware",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-paper-checking",
+      "node_kind": "presentation_facet",
+      "title": "Paper Checking",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-consequential-repair",
+      "node_kind": "presentation_facet",
+      "title": "Consequential Systems & Repair",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-software-before-code",
+      "node_kind": "presentation_facet",
+      "title": "Software Before Code",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-boundary-first-ux",
+      "node_kind": "presentation_facet",
+      "title": "Boundary First UX",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-mathematics-physics-computation",
+      "node_kind": "presentation_facet",
+      "title": "Mathematics, Physics & Computation",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-economic-water-model",
+      "node_kind": "presentation_facet",
+      "title": "Economic Water Model",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "facet-ai-understanding-alignment-governance",
+      "node_kind": "presentation_facet",
+      "title": "AI Understanding, Explainability, Alignment & Governance",
+      "public_path": null,
+      "lifecycle": "candidate_index_node"
+    }
+  ],
+  "facet_coverage": [
+    {
+      "facet_id": "codexware",
+      "label": "Public Codexware",
+      "presentation_role": "public_instrument",
+      "current_state": "founder_reported_in_flight",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "research/computing/README.md",
+        "research/consequential-systems/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Inspectable individual–institutional public-data analysis with deterministic operations and evidence export",
+      "release_observation": "No Codexware release package was found in the public repository at this baseline.",
+      "open_gaps": [
+        "Locate current in-flight implementation and verify build/rights status",
+        "Confirm first dataset and reproducible analysis contract",
+        "Publish only with explicit source, license, privacy and review clearance"
+      ]
+    },
+    {
+      "facet_id": "paper-checking",
+      "label": "Paper Checking",
+      "presentation_role": "verification_service_candidate",
+      "current_state": "proposed_service",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "research/mathematics/README.md",
+        "research/computing/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Paper claim–dependency–evidence inspection with explicit missing proof obligations",
+      "release_observation": "No paper-checking release or completed service pilot is established by the public repository.",
+      "open_gaps": [
+        "Verify pilot execution and independent benchmarks from owning source",
+        "Select a rights-cleared paper and evidence packet",
+        "Separate mechanical checks from mathematical and scientific validity"
+      ]
+    },
+    {
+      "facet_id": "consequential-repair",
+      "label": "Consequential Systems & Repair",
+      "presentation_role": "engineering_architecture",
+      "current_state": "working_methodology",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "method/BOUNDARY_FIRST_FIELD_GUIDE.md",
+        "research/consequential-systems/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Trace bug report → data invariant → business rule → institutional constraint → verified repair",
+      "release_observation": "A public case release with tests and consequence witnesses is not established at this baseline.",
+      "open_gaps": [
+        "Choose a sanitized, consented, attributable case",
+        "Bind each repair to original evidence and a reproducible check",
+        "Prohibit unsupported claims of full institutional closure"
+      ]
+    },
+    {
+      "facet_id": "software-before-code",
+      "label": "Software Before Code",
+      "presentation_role": "engineering_method",
+      "current_state": "developed_method_workstream",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "method/README.md",
+        "research/computing/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Requirements, invariants and exception contracts before implementation",
+      "release_observation": "A versioned public project package has not been identified for Software Before Code.",
+      "open_gaps": [
+        "Recover current definition and owner-reviewed examples",
+        "Compare to established design-by-contract/formal-methods practice",
+        "Show measurable value without implying universal novelty"
+      ]
+    },
+    {
+      "facet_id": "boundary-first-ux",
+      "label": "Boundary First UX",
+      "presentation_role": "interaction_and_presentation_method",
+      "current_state": "design_and_prototype_workstream",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "start-here/README.md",
+        "method/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "One semantic object across world, analytical and timeline views, preserving identity and evidence",
+      "release_observation": "No versioned public BFUX demonstration package is identified in this repository.",
+      "open_gaps": [
+        "Recover canonical flagship and current view contracts",
+        "Test cross-view identity and accessibility",
+        "Distinguish aesthetic visualization from experimentally validated UX advantage"
+      ]
+    },
+    {
+      "facet_id": "mathematics-physics-computation",
+      "label": "Mathematics, Physics & Computation",
+      "presentation_role": "foundational_research",
+      "current_state": "mixed_maturity_research_with_public_educational_calibration",
+      "coverage_state": "selected_public_release_verified",
+      "basis": [
+        "public_release_manifest",
+        "public_repository_navigation",
+        "founder_visible_conversation"
+      ],
+      "public_refs": [
+        "research/mathematics/README.md",
+        "research/physics/README.md",
+        "research/computing/README.md",
+        "projects/n-ball-boundary-recursion/release.yaml"
+      ],
+      "released_object_refs": [
+        "n-ball-educational-calibration"
+      ],
+      "candidate_demo": "Explore typed n-ball construction, slicing, classical recurrence and representation-loss counterexample",
+      "release_observation": "A public educational n-ball package exists; it is not an original theorem, physical validation or peer-reviewed research result.",
+      "open_gaps": [
+        "Reconcile recent diagram and type-tree sources with current owner evidence",
+        "Maintain separate mathematics, computation and physics claim standards",
+        "Recover original geometric construction files only after rights/provenance review"
+      ]
+    },
+    {
+      "facet_id": "economic-water-model",
+      "label": "Economic Water Model",
+      "presentation_role": "economic_model_and_instrument_candidate",
+      "current_state": "bounded_private_research_reported",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "research/consequential-systems/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Compare monetary flow, gate capacity, jointly reachable allocations and access constraints in synthetic examples",
+      "release_observation": "No public economic-model executable package or independently reviewable results are identified here.",
+      "open_gaps": [
+        "Recover rights-cleared synthetic fixtures and exact executable version",
+        "Validate joint versus isolated capacity in the reproducibility package",
+        "Avoid treating synthetic feasibility as empirical economic proof"
+      ]
+    },
+    {
+      "facet_id": "ai-understanding-alignment-governance",
+      "label": "AI Understanding, Explainability, Alignment & Governance",
+      "presentation_role": "cross_cutting_research_and_engineering_program",
+      "current_state": "research_and_governance_workstreams",
+      "coverage_state": "seed_only",
+      "basis": [
+        "founder_visible_conversation",
+        "public_repository_navigation"
+      ],
+      "public_refs": [
+        "research/computing/README.md",
+        "research/consequential-systems/README.md"
+      ],
+      "released_object_refs": [],
+      "candidate_demo": "Continuation-sufficiency collision, explanation-versus-evidence audit, or inspectable delegated-agency review",
+      "release_observation": "This public repository does not establish a general explanation of why LLMs work or a validated general AI alignment solution.",
+      "open_gaps": [
+        "Separate mechanism explanation, interpretability, alignment and governance evidence",
+        "Recover falsifiable benchmarks and matched baselines",
+        "Review delegated-authority examples and exclude unsupported safety certification claims"
+      ]
+    }
+  ],
+  "navigation_edges": [
+    {
+      "from": "bfl-method",
+      "to": "facet-codexware",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-paper-checking",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-consequential-repair",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-software-before-code",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-boundary-first-ux",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-mathematics-physics-computation",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-economic-water-model",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "bfl-method",
+      "to": "facet-ai-understanding-alignment-governance",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "facet-mathematics-physics-computation",
+      "to": "n-ball-educational-calibration",
+      "relation": "links_to_public_release",
+      "claim_effect": "none"
+    },
+    {
+      "from": "rcbf-001",
+      "to": "bfl-method",
+      "relation": "references_current_method",
+      "claim_effect": "none"
+    }
+  ],
+  "research_relation_candidates": [],
+  "confirmed_public_releases": [
+    {
+      "object_ref": "n-ball-educational-calibration",
+      "release_id": "BFL-PUB-EDU-NBALL-20261123-01",
+      "release_manifest": "projects/n-ball-boundary-recursion/release.yaml",
+      "claim_ceiling": "established_background_plus_public_interpretive_exposition",
+      "status": "published_educational_exposition",
+      "independently_reviewed": false,
+      "executable_public_service": false
+    }
+  ],
+  "next_frontier": {
+    "frontier_id": "W1_UNASSIGNED",
+    "lifecycle": "not_started",
+    "chronological_bounds": null,
+    "facet_visit_count": 0,
+    "required_facet_visits": 8,
+    "advancement_rule": "Each facet receives a documented outcome; this is not exhaustive archival completion",
+    "next_action": "Review Frontier-0 source identities, locate actual Codexware MVP, then admit first bounded reverse-chronological cross-facet cohort"
+  }
+}

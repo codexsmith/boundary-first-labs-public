@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boundary First Labs Public Frontier-0 Manifest v0.1",
+  "description": "A downstream public presentation index; not a source-owner register, scientific claim status or publication authorization.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "manifest_id",
+    "as_of",
+    "lifecycle",
+    "scope",
+    "source_posture",
+    "authority",
+    "temporal_policy",
+    "public_nodes",
+    "facet_coverage",
+    "navigation_edges",
+    "research_relation_candidates",
+    "confirmed_public_releases",
+    "next_frontier"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "manifest_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "lifecycle": {
+      "const": "candidate_public_projection"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_posture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_class",
+        "completeness",
+        "private_canonical_sources_reviewed_exhaustively",
+        "chatgpt_conversation_url",
+        "conversation_locator_public_disclosure",
+        "rights_policy",
+        "publication_policy",
+        "provenance_policy"
+      ],
+      "properties": {
+        "source_class": {
+          "type": "string"
+        },
+        "completeness": {
+          "type": "string"
+        },
+        "private_canonical_sources_reviewed_exhaustively": {
+          "const": false
+        },
+        "chatgpt_conversation_url": {
+          "type": "null"
+        },
+        "conversation_locator_public_disclosure": {
+          "type": "string"
+        },
+        "rights_policy": {
+          "type": "string"
+        },
+        "publication_policy": {
+          "type": "string"
+        },
+        "provenance_policy": {
+          "type": "string"
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "public_projection_only",
+        "may_promote_research_claims",
+        "may_grant_license",
+        "may_trigger_external_actions",
+        "private_lab_remains_source_authority"
+      ],
+      "properties": {
+        "public_projection_only": {
+          "const": true
+        },
+        "may_promote_research_claims": {
+          "const": false
+        },
+        "may_grant_license": {
+          "const": false
+        },
+        "may_trigger_external_actions": {
+          "const": false
+        },
+        "private_lab_remains_source_authority": {
+          "const": true
+        }
+      }
+    },
+    "temporal_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frontier_zero_type",
+        "recovery_direction",
+        "traversal",
+        "date_priority",
+        "dates_recorded_separately",
+        "unknown_date_handling",
+        "targeted_older_evidence_exception",
+        "window_selection"
+      ],
+      "properties": {
+        "frontier_zero_type": {
+          "const": "versioned_contemporary_baseline"
+        },
+        "recovery_direction": {
+          "const": "reverse_chronological"
+        },
+        "traversal": {
+          "const": "breadth_first_across_eight_facets"
+        },
+        "date_priority": {
+          "type": "string"
+        },
+        "dates_recorded_separately": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 4,
+          "uniqueItems": true
+        },
+        "unknown_date_handling": {
+          "type": "string"
+        },
+        "targeted_older_evidence_exception": {
+          "type": "string"
+        },
+        "window_selection": {
+          "type": "string"
+        }
+      }
+    },
+    "public_nodes": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "facet_coverage": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/facet"
+      }
+    },
+    "navigation_edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nav_edge"
+      }
+    },
+    "research_relation_candidates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/research_edge"
+      }
+    },
+    "confirmed_public_releases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/release"
+      }
+    },
+    "next_frontier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frontier_id",
+        "lifecycle",
+        "chronological_bounds",
+        "facet_visit_count",
+        "required_facet_visits",
+        "advancement_rule",
+        "next_action"
+      ],
+      "properties": {
+        "frontier_id": {
+          "type": "string"
+        },
+        "lifecycle": {
+          "const": "not_started"
+        },
+        "chronological_bounds": {
+          "type": "null"
+        },
+        "facet_visit_count": {
+          "const": 0
+        },
+        "required_facet_visits": {
+          "const": 8
+        },
+        "advancement_rule": {
+          "type": "string"
+        },
+        "next_action": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node_id",
+        "node_kind",
+        "title",
+        "public_path",
+        "lifecycle"
+      ],
+      "properties": {
+        "node_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "node_kind": {
+          "enum": [
+            "public_method_exposition",
+            "recovery_protocol",
+            "released_educational_project",
+            "presentation_facet"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "public_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lifecycle": {
+          "type": "string"
+        },
+        "release_id": {
+          "type": "string"
+        }
+      }
+    },
+    "facet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "facet_id",
+        "label",
+        "presentation_role",
+        "current_state",
+        "coverage_state",
+        "basis",
+        "public_refs",
+        "released_object_refs",
+        "candidate_demo",
+        "release_observation",
+        "open_gaps"
+      ],
+      "properties": {
+        "facet_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "presentation_role": {
+          "type": "string"
+        },
+        "current_state": {
+          "type": "string"
+        },
+        "coverage_state": {
+          "enum": [
+            "seed_only",
+            "selected_public_release_verified"
+          ]
+        },
+        "basis": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "public_release_manifest",
+              "public_repository_navigation",
+              "founder_visible_conversation"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "public_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "released_object_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "candidate_demo": {
+          "type": "string"
+        },
+        "release_observation": {
+          "type": "string"
+        },
+        "open_gaps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nav_edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "to",
+        "relation",
+        "claim_effect"
+      ],
+      "properties": {
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "relation": {
+          "enum": [
+            "navigation_groups",
+            "links_to_public_release",
+            "references_current_method"
+          ]
+        },
+        "claim_effect": {
+          "const": "none"
+        }
+      }
+    },
+    "research_edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "to",
+        "relation",
+        "status",
+        "evidence_refs"
+      ],
+      "properties": {
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "relation": {
+          "enum": [
+            "precedes",
+            "refines",
+            "supersedes",
+            "renames",
+            "generalizes",
+            "specializes",
+            "supports",
+            "challenges",
+            "implements",
+            "illustrates",
+            "candidate_correspondence"
+          ]
+        },
+        "status": {
+          "enum": [
+            "candidate",
+            "owner_reviewed"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "release": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "object_ref",
+        "release_id",
+        "release_manifest",
+        "claim_ceiling",
+        "status",
+        "independently_reviewed",
+        "executable_public_service"
+      ],
+      "properties": {
+        "object_ref": {
+          "type": "string"
+        },
+        "release_id": {
+          "type": "string"
+        },
+        "release_manifest": {
+          "type": "string"
+        },
+        "claim_ceiling": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "independently_reviewed": {
+          "type": "boolean"
+        },
+        "executable_public_service": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
