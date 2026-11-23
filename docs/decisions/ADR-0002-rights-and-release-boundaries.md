@@ -11,7 +11,7 @@ A public release must keep **three independent records**: intellectual provenanc
 The intended future defaults are:
 
 - **Original research exposition / approved original diagrams:** CC BY 4.0 when the rightsholder authorizes it.
-- **Approved open-source code:** Apache-2.0 unless a separately reviewed alternative such as MIT is chosen.
+- **Approved open-source code:** MIT unless a separately reviewed alternative such as Apache-2.0 is chosen.
 - **Mixed packages:** per-file or per-path SPDX/REUSE-style license assignments and third-party notices.
 - **Names, logos, private data, third-party materials, or commercial code:** not implicitly covered.
 

@@ -20,7 +20,7 @@ See [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) for the distinction be
 
 | Material | Intended release approach |
 |---|---|
-| Standalone public code and executable examples | Apache-2.0 as the prospective default after rights review; MIT or another appropriate software license only by an explicit, scoped release decision |
+| Standalone public code and executable examples | MIT as the prospective default after rights review; Apache-2.0 or another appropriate software license only by an explicit, scoped release decision |
 | Original research writing and explanatory figures | Explicit, publication-scoped CC BY 4.0 where approved |
 | Third-party assets, libraries, quotations, and datasets | Retain their original terms; identify required attributions and permissions |
 | Product-specific or commercial implementations | Separate release terms; a public description alone is not a software grant |

@@ -6,4 +6,4 @@ This directory is reserved for full license texts and license notices used by **
 
 For a cleared release, add applicable license text and declare the precise covered paths in its release manifest and, where practicable, file-level SPDX identifiers or REUSE-style metadata. Third-party notices and exclusions must remain distinct.
 
-See [Licensing and Rights](../LICENSING.md). The preferred *prospective* defaults are CC BY 4.0 for approved original research exposition and Apache-2.0 for approved code, not an automatic license on this repository.
+See [Licensing and Rights](../LICENSING.md). The preferred *prospective* defaults are CC BY 4.0 for approved original research exposition and MIT for approved code, not an automatic license on this repository.
