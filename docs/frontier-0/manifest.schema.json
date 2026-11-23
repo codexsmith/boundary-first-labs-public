@@ -20,7 +20,8 @@
     "confirmed_public_releases",
     "next_frontier",
     "publication_review",
-    "recovery_cohorts"
+    "recovery_cohorts",
+    "recovery_event_candidates"
   ],
   "properties": {
     "schema_version": {
@@ -309,6 +310,13 @@
       "items": {
         "$ref": "#/$defs/recovery_cohort"
       }
+    },
+    "recovery_event_candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/recovery_event_candidate"
+      }
     }
   },
   "$defs": {
@@ -376,7 +384,10 @@
         "w1_first_pass_status",
         "w2_first_pass_status",
         "w2_source_origin_evidence",
-        "w2_first_pass_note"
+        "w2_first_pass_note",
+        "w3_first_pass_status",
+        "w3_source_origin_evidence",
+        "w3_first_pass_note"
       ],
       "properties": {
         "facet_id": {
@@ -483,6 +494,24 @@
         "w2_first_pass_note": {
           "type": "string",
           "minLength": 15
+        },
+        "w3_first_pass_status": {
+          "enum": [
+            "founder_deferred_nonblocking",
+            "bounded_cross_facet_review"
+          ]
+        },
+        "w3_source_origin_evidence": {
+          "enum": [
+            "not_observed_in_bounded_sample",
+            "adjacent_source_only",
+            "date_boundary_predecessor_only",
+            "source_within_window"
+          ]
+        },
+        "w3_first_pass_note": {
+          "type": "string",
+          "minLength": 20
         }
       }
     },
@@ -647,6 +676,83 @@
         },
         "report_path": {
           "type": "string"
+        }
+      }
+    },
+    "recovery_event_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "title",
+        "facet_id",
+        "owner_source_date",
+        "observed_commit_date",
+        "source_role",
+        "candidate_highlight",
+        "claim_ceiling",
+        "verification_state",
+        "source_date_basis",
+        "founder_review_status",
+        "publication_disposition",
+        "public_source_bytes",
+        "source_completeness",
+        "independently_verified_in_this_survey"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string",
+          "pattern": "^w3-[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 5
+        },
+        "facet_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "owner_source_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "observed_commit_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "source_role": {
+          "type": "string",
+          "minLength": 5
+        },
+        "candidate_highlight": {
+          "type": "string",
+          "minLength": 20
+        },
+        "claim_ceiling": {
+          "type": "string",
+          "minLength": 20
+        },
+        "verification_state": {
+          "type": "string",
+          "minLength": 5
+        },
+        "source_date_basis": {
+          "const": "owner_recorded_not_independently_audited"
+        },
+        "founder_review_status": {
+          "const": "pending"
+        },
+        "publication_disposition": {
+          "const": "hold"
+        },
+        "public_source_bytes": {
+          "const": "not_included"
+        },
+        "source_completeness": {
+          "const": "selected_owner_excerpt"
+        },
+        "independently_verified_in_this_survey": {
+          "const": false
         }
       }
     }

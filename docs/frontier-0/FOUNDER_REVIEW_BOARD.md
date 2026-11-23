@@ -48,6 +48,22 @@ The clearest in-window source is a **November 15 Human Viability Engineering** w
 
 No item is automatically marked approved. Consider these as **candidate talking points** when reviewing the overall Lab presentation. Each remains **Hold** until explicitly selected for further public preparation.
 
+## W3 — November 9 event-family review
+
+The [W3 first-pass ledger](WAVE_3_KICKOFF.md) accounts for **219 tracked Git commits** from one day as *commit events*, not discoveries. Its high-level review opportunities are:
+
+| Candidate explanation | Why it matters | Default |
+| --- | --- | --- |
+| **Proof obligation standard P01–P14** | Converts vague rigor requirements into falsifiable proof/check obligations | **Hold** |
+| **Euler–Gamma–rod/ball calibration** | Separates classical identities from new interpretive structure and admissible representation transfer | **Hold** |
+| **Gamma-weighted capacity dynamics** | Shows analytic/numerical/source boundaries and why similar recurrence language is not equivalent to ordinary tetration | **Hold** |
+| **Finite Yang–Mills Pass 41x/41y** | Demonstrates a restricted obstruction, constructive class expansion, and remaining physical underdetermination | **Hold** |
+| **Shared-boundary proof checker** | Demonstrates source-bound structural verification, bounded Lean scope and an unproved implementation-refinement bridge | **Hold** |
+
+Potentially powerful for **explaining how the Lab thinks and tests**, but none is an automatically approved scientific claim, paper, product, public demonstration or licensed release.
+
+The separately identified Nov 8-origin CDAR-001, Conway Life and adapter-doctrine work moves to [W4](WAVE_4_KICKOFF.md), despite Nov 9 Git integration.
+
 ## What needs the founder's judgment
 
 A short decision for each facet (include candidate, revise, hold or exclude) is sufficient for **editorial direction**. A deeper line-by-line proof review is not required for this high-level pass; scientific source owners and publication controls still carry the technical approval burden.
