@@ -59,3 +59,13 @@ Presence of files and a Git commit proves publication of this presentation, not 
 **History limitation:** historical public Git commits and any third-party copies are not removed by an ordinary follow-on commit. Do not describe this action as a confidentiality reset.
 
 **Review source:** the exact earlier published snapshot is retained by Git history at commit `1dcc4f41a9054b3e016659b70627e3dee7d561b0`; any future republication requires a new, specifically authorized disclosure review.
+
+## 2026-11-23 — Proportionate disclosure review policy projection
+
+**Decision:** public review routes P1 (ordinary editorial), P2 (domain-specialist), and P3 (confidential technical) now correspond to the governed Lab's canonical operational publication policy. Ordinary AI/civic/institutional writing is not subject to the strict protected-technical gate by default.
+
+**Authority:** the private Lab controls actual publication approvals; this repository is the public projection only. No mathematical, physics, algorithmic, software or third-party artifact is released by this policy decision. Previously withdrawn material remains withdrawn.
+
+**Source class:** directly visible founder instruction and bounded assistant-authored draft. **Completeness:** bounded visible span; exact current ChatGPT conversation URL unavailable and not fabricated. Earlier share links refer to a different workstream.
+
+**Private operational commit:** [a6403cad7a1077794b4eb3d130318ca70af5eeeb](https://github.com/codexsmith/boundary-first-labs/commit/a6403cad7a1077794b4eb3d130318ca70af5eeeb) (private repository; requires access).

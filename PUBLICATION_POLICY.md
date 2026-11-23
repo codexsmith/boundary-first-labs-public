@@ -1,61 +1,63 @@
 # Publication and Research Status
 
-**Public release policy — version 0.1 (2026-11-23).**
+**Public policy projection — version 0.2 (2026-11-23).**  
+**Operational authority:** Boundary First Labs' governed publication-control package in the private Lab. This public policy explains the rules without reproducing confidential screening criteria.
 
-This repository is a **public projection**, not the complete working laboratory or an authority over its canonical research. A publication's availability is distinct from the maturity of the results it describes.
+Boundary First Labs maintains an **active public publication program** for consequential systems, AI governance doctrine, institutional accountability, civic analysis, public education, and related work. Being a Lab-originated idea does not automatically make its public explanation confidential.
 
-## The release contract
+## Proportionate, content-based publication routes
 
-For every substantive research artifact, identify:
+### P1 — Ordinary public editorial
 
-1. **Object and purpose:** what is being represented and what task it serves.
-2. **Inherited foundations and prior art:** conventional mathematics, existing algorithms, standards, established literature, and parallel contributions.
-3. **BFL-specific addition:** the precise reconstruction, composition, implementation, instrument, relation, or claimed result.
-4. **Claim ceiling:** definitions vs. conjectures vs. checked bounded results; what has *not* been shown.
-5. **Assumptions and limits:** state/domain, conventions, tolerances and units where relevant, possible failure conditions.
-6. **Evidence:** proof, code, tests, source data, counterexamples, negative results, reproducibility instructions, and independent review where available.
-7. **Rights and provenance:** origin, author/contributor attribution, copyright scope, explicit licenses, third-party restrictions, cleared publication source.
-8. **Correction path:** release version/date, owner approval, known defects, and revision trace.
+**Typical scope:** institutional identity, mission and principles; AI ethics and governance doctrine; human-centered agency and collaboration; consequential-systems commentary; public law, economic and civic interpretation presented at an appropriate level; non-enabling educational writing and accessible methods.
 
-Use [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) and [Licensing and Rights](LICENSING.md) for the corresponding rules.
+**Review:** authorized public speaker or editor, accurate attribution, factual checking proportional to the actual assertions, suitable privacy/safety and third-party rights checks, appropriate claim limitations, publication date, stewardship and correction path.
 
-## Research-status vocabulary
+**No universal founder line-by-line or specialist mathematical review applies to P1** simply because the subject touches technology or originated in private research. P1 does not authorize copying private source documents or speaking for third parties without authority.
 
-| Label | Meaning |
-|---|---|
-| **Established background** | An attributed existing result or technique, not claimed as a BFL invention |
-| **Working definition** | A proposed vocabulary, formal object, or explicit assumption without automatic external validation |
-| **Hypothesis / conjecture** | A claim to be tested or proved; not presented as established |
-| **Bounded demonstration** | A construction, test, or computation that supports only the declared scope |
-| **Verified result** | A specific claim with stated evidence, method, and checking conditions; verification scope must be explicit |
-| **Negative result / open defect** | A counterexample, failed test, obstruction, missing proof, or unresolved issue |
+### P2 — Targeted specialist review
 
-A locally passed test is not an independently replicated experiment. A formal mathematical correspondence is not an empirical physical theory. An analogy, diagram, or common analytical role does not prove cross-domain equivalence. A useful systematization is not necessarily a new theorem.
+**Typical scope:** consequential legal, economic, empirical, health, product-readiness or other high-stakes claims requiring greater scrutiny.
 
-## Publication vs. promotion
+**Review:** P1 plus subject-matter evidence and methodology review appropriate to the domain, including uncertainties, comparisons, privacy, security, affected parties and any required professional qualifications. Public code/products additionally require their own release, licensing and security decisions.
 
-Publishing a polished representation does **not**:
+P2 is **not by default a founder line-by-line confidential-technical review**.
 
-- promote hypotheses into theorems;
-- confer ownership of mathematical laws or inherited algorithms;
-- change the original Lab artifact's evidence or governance status;
-- transform a prototype into a production-ready service;
-- authorize release of private data, proprietary code, contributor works, or licensed third-party material.
+### P3 — Confidential technical disclosure
 
-Novelty claims must survive native-domain comparison. If existing machinery already suffices, document that finding instead of disguising the reduction.
+Certain unpublished technical research and implementation know-how is **private by default**. The founder must review the exact proposed text, attachments and technical details line by line and expressly approve each public release *before* a public Git commit. Detailed screening criteria remain confidential in the governed Lab.
 
-## Corrections, criticism, and negative outcomes
+The presence of words such as “AI,” “mathematics,” “software,” or “boundary” does not itself place a public essay into P3. Assess actual disclosure substance, including whether a passage makes protected capabilities reconstructible together with other public materials.
 
-Preserve meaningful failures and counterexamples. A revision should identify what changed, what evidence motivated it, and which earlier claims are narrowed, superseded, or withdrawn. Avoid silent rewriting of the public record.
+## Mixed and uncertain documents
 
-## Public package and navigation contract
+A public discussion can be P1 while one appendix or paragraph needs P3. Separate them when truthful and feasible. Hold the protected part for review; do not unnecessarily freeze unrelated cleared public writing. Where redaction would produce a misleading explanation, hold the affected publication instead.
 
-A future substantial release lives in one versioned [project package](projects/README.md) with its claim and rights metadata. Domain guides, [publications](publications/README.md), and [software](software/README.md) are navigation views, not second copies. Use the [release example](docs/templates/project/release.example.yaml) and [release checklist](docs/templates/RELEASE_CHECKLIST.md) only after rights and publication approval.
+## Common responsibilities for every published artifact
 
-## Founder review of disclosure scope
+An authorized publisher/steward remains responsible for source provenance and attribution, accurate distinction between fact and interpretation, rights held by the publisher and third parties, appropriate privacy and safety review, claim limits, a dated/versioned public record and a correction mechanism.
 
-Publicly visible repositories are not suitable staging areas for unreviewed substantive research. A request to create a folder, populate a skeleton, or explain the Lab does not grant continuing authorization to publish specific proofs, derivations, reproducibility bundles, executable methods, or other technical material. Apply a separate, affirmative review of disclosure scope **before** committing such material to a public branch. Rights clearance and scientific maturity checks are necessary but do not replace this disclosure review.
+Scale the depth of evidence to the genre. A general ethics statement does **not** need a formal theorem/experiment ledger. A substantive research result must distinguish established background from the Lab's own addition, show relevant assumptions, support and counterevidence, and disclose meaningful limitations.
 
-## Current repository scope
+## Scientific and editorial claim status
 
-The repository currently contains public orientation, architecture, documentation templates, and governance rules. It does **not** release or endorse additional theorems, physics results, professional legal conclusions, executable products, or third-party content. Each substantive research or software release requires its own review.
+- **Established background:** attributed pre-existing result, not automatically a BFL discovery.
+- **Working definition or interpretation:** explanatory formulation whose usefulness or external adoption may remain unverified.
+- **Hypothesis or conjecture:** question or assertion requiring appropriate testing/proof.
+- **Bounded demonstration:** evidence supporting only stated conditions.
+- **Verified result:** a specific claim with defined evidence, checking method and review scope.
+- **Negative result or open defect:** refutation, failure, uncertainty or missing obligation.
+
+Publication does **not** promote scientific claims, grant third-party rights, or authorize real-world action. A local simulation is not independent experimental replication. Domain-specific standards remain applicable.
+
+## Publication routing and licensing
+
+Ordinary essays, short policy statements and public doctrine may live in `about/`, `research/consequential-systems/`, `method/`, or `publications/` as appropriate; they need not be packaged as technical research projects. Reproducible technical releases, when actually approved, use a single versioned public owner in `projects/<slug>/`.
+
+[Licensing](LICENSING.md) and [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) remain independent of disclosure approval. Neither a repository path nor an MIT/CC BY label overrides the confidential release gate.
+
+The previously withdrawn n-ball package **remains withdrawn** pending its own separate review. This policy releases no private manuscripts, algorithms, mathematics, physics, software, or third-party content.
+
+## Operational control
+
+The controlled Lab publication-governance rules, pipeline and checklist are the **operational** sources. This public document and [ADR-0005](docs/decisions/ADR-0005-proportionate-publication-gates.md) summarize them for readers and contributors. If the projections diverge, refer the matter to the publication steward; do not silently grant release permission.

@@ -7,3 +7,7 @@ Use domain-native standards and distinguish description, normative judgment, pro
 Public tools here are intended to support **evidenced explanation and inspectable plans**, not to make real-world decisions or intervene in institutions on a user's behalf. No general legal, economic, political, or medical conclusion follows solely from cross-domain formal analogies.
 
 Released artifacts belong to [project packages](../../projects/README.md), with a stated evidence and rights boundary.
+
+## Public publishing posture
+
+Consequential-systems essays, AI governance doctrine, institutional accountability, and general civic analysis are ordinary public-facing Lab work. They may follow P1 editorial review, or P2 where substantial domain-specific evidence or risk warrants specialist scrutiny; they are not presumed confidential simply because they originate in research. Confidential technical mechanisms are withheld under P3. See [Publication Policy](../../PUBLICATION_POLICY.md).

@@ -1,35 +1,36 @@
-# Public Project Release Checklist
+# Public Publication Preflight — Proportionate Review
 
-**Use on a concrete cleared project, not on an empty folder.**
+**Public guidance and template only.** The governed Lab owns operational admission and release status.
 
-## Scope and source
+## Choose the content route
 
-- [ ] Release owner, stable ID, version, date, purpose, audience and canonical public package identified.
-- [ ] Original source, attribution, authorship, source completeness and provenance are accurately described.
-- [ ] Private or sensitive records and unapproved third-party assets are excluded.
-- [ ] Inherited conventional mathematics, relevant prior art, and the exact BFL-specific addition are separated.
+- [ ] **P1:** public doctrine, AI governance, institutional writing, civic analysis, ordinary educational or non-enabling explanations; ordinary editorial review.
+- [ ] **P2:** specialized empirical, legal, economic, sensitive or high-stakes claims; appropriate domain and evidence review.
+- [ ] **P3:** confidential technical content; hold outside public Git until exact founder line-by-line review and explicit release authorization.
+- [ ] For mixed writing, separate protected passages while allowing unrelated, cleared public text to proceed.
 
-## Claims and evidence
+## Checks for all routes
 
-- [ ] Each substantive claim has a type, assumption set, scope, counterevidence, and claim ceiling.
-- [ ] Proofs, calculations, software tests, and empirical observations are not conflated.
-- [ ] Meaningful negative results, known defects, comparisons and limiting cases remain visible.
-- [ ] Native-domain baseline and review requirements are satisfied or limitations stated.
-- [ ] Public copy does not quietly strengthen a private working hypothesis.
+- [ ] Public speaker/steward, audience, intended use and publishing authority are clear.
+- [ ] Sources, attribution and relevant third-party rights are accurate; no unapproved private source materials are copied.
+- [ ] Evidence, opinion, proposals and interpretations are distinguished appropriately.
+- [ ] Privacy, safety and identifiable affected persons are considered proportionately.
+- [ ] Reuse permissions are explicit *if granted*. Public access is not a blanket copyright license.
+- [ ] Date/version, correction path and maintenance expectation are recorded as appropriate.
 
-## Copyright and licensing
+## Added P2 checks
 
-- [ ] Copyright holders and contributors authorized the actual grants.
-- [ ] Each licensed path has the correct SPDX/license and actual required license text.
-- [ ] Research exposition, source code, diagrams, trademarks, and third-party data are treated separately.
-- [ ] Exceptions, dependencies, citations, notices, and attribution requirements are documented.
-- [ ] No rights are claimed over conventional mathematical facts or equations as such.
+- [ ] Domain-native factual, scientific, economic, legal or product verification appropriate to the claims is completed.
+- [ ] Material caveats, contradictory evidence, uncertainty and limitations are disclosed.
+- [ ] Public code/product releases have independently appropriate licensing, security and deployment review.
 
-## Public consequence and stewardship
+## Added P3 checks
 
-- [ ] Privacy, security, safety, accuracy and sensitive-domain issues are reviewed.
-- [ ] Maintenance, corrections, supersession, or withdrawal path identified.
-- [ ] Applicable human/publication and domain approvals recorded.
-- [ ] Public indexes link to one owning release and do not create competing manuscript copies.
+- [ ] No confidential technical material has been placed in a public branch for review.
+- [ ] Exact proposed content and attachments have founder line-by-line disclosure approval.
+- [ ] Potential reconstruction through combination with existing public materials has been considered.
+- [ ] Only specifically approved technical expressions, diagrams, implementations or excerpts are included.
 
-Only after these checks should a project move from draft/review into a public release. **A Git commit is a transport operation, not a substitute for approval.**
+**Stop condition:** an enabling technical passage cannot be routed as P1/P2 merely because surrounding prose is general. **Anti-overreach:** familiar words such as AI, software, boundary or mathematics do not automatically force P3.
+
+Read [Publication Policy](../../PUBLICATION_POLICY.md) and [Licensing](../../LICENSING.md). This checklist does not promote scientific status or authorize unrelated releases.

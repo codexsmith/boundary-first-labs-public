@@ -74,7 +74,7 @@ See [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) for the required disti
 
 ## About this public repository
 
-This is a curated **public presentation and distribution surface**. It is not a mirror of the governed internal research corpus. At present it publishes the Lab's orientation, public navigation skeleton, and release-governance rules. Substantive research, examples and software are not automatically public: each requires separate founder review of disclosure scope, maturity and rights.
+This is a curated **public presentation and distribution surface**. It is not a mirror of the governed internal research corpus. At present it publishes the Lab's orientation, public navigation, and publication rules. Public doctrine, AI governance, institutional analysis, and civic writing can follow ordinary editorial or targeted specialist review. Only confidential technical material requires exact founder line-by-line disclosure approval before publication. All releases retain appropriate source, rights, safety and correction checks.
 
 **Publication is not validation.** A public document may contain working definitions, experiments, hypotheses, negative results, or unresolved questions. Its availability does not elevate those claims into established theorems or empirically verified outcomes.
 
