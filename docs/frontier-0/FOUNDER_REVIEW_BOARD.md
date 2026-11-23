@@ -48,6 +48,10 @@ Suggested high-level prompts: *Does this accurately describe the current state? 
 
 No new release is authorized until its own source/rights/claim review passes. The [existing n-ball education package](../../projects/n-ball-boundary-recursion/README.md) stays published; this draft board does not retroactively unpublish it.
 
+## Next cohort preview
+
+The [W2 discovery kickoff](WAVE_2_KICKOFF.md) opens the provisional **November 10–15 original-source cohort**. Early evidence includes a bounded Human Viability Engineering handoff, a mathematical proof-obligation standard, and classical Euler/Gamma reflection calibration. All remain held from new release; their different original-source and Git-commit dates are recorded explicitly.
+
 ## Next controlled research actions
 
 1. Continue bounded historical source recovery across all non-Codexware facets without treating any of this board as approval.
