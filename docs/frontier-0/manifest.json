@@ -6,7 +6,7 @@
   "scope": "Initial public-facing Frontier-0 inventory, including candidate consequential-systems research highlights; not a private-corpus census, verification of the Codexware build, or an execution record",
   "source_posture": {
     "source_class": "bounded_visible_conversation_plus_selected_public_documents_and_private_owner_excerpts",
-    "completeness": "bounded_selected_public_files_and_private_source_excerpts_not_lossless",
+    "completeness": "bounded_selected_source_owner_and_public_repository_documents_not_exhaustive",
     "private_canonical_sources_reviewed_exhaustively": false,
     "chatgpt_conversation_url": null,
     "conversation_locator_public_disclosure": "withheld_pending_explicit_disclosure_clearance",
@@ -157,7 +157,10 @@
         "Confirm first dataset and reproducible analysis contract",
         "Publish only with explicit source, license, privacy and review clearance",
         "Connected GitHub repository and branch discovery did not resolve the current Codexware MVP implementation; no absence or production-readiness conclusion follows."
-      ]
+      ],
+      "founder_review_status": "deferred",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "deferred_user_source_pending"
     },
     {
       "facet_id": "paper-checking",
@@ -179,8 +182,12 @@
       "open_gaps": [
         "Verify pilot execution and independent benchmarks from owning source",
         "Select a rights-cleared paper and evidence packet",
-        "Separate mechanical checks from mathematical and scientific validity"
-      ]
+        "Separate mechanical checks from mathematical and scientific validity",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "consequential-repair",
@@ -206,12 +213,16 @@
         "Prohibit unsupported claims of full institutional closure",
         "Viability Control Theory for Wicked Systems: formalize contested objectives, viability constraints, interventions, affected-party agency and counterexamples; establish prior-art comparisons before claiming novelty.",
         "Constructive Humanist Agentics: reconcile the July 2026 working synthesis and current agency doctrine with accountable ownership, measured agency preservation and review status.",
-        "A candidate Human Viability Engineering finite water-flow reference was committed Nov 16 with source date Nov 15 and six synthetic cases; its prior reported 15 local tests are not fresh independent verification or a general wicked-systems control theory."
+        "A candidate Human Viability Engineering finite water-flow reference was committed Nov 16 with source date Nov 15 and six synthetic cases; its prior reported 15 local tests are not fresh independent verification or a general wicked-systems control theory.",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
       ],
       "subprogram_refs": [
         "highlight-viability-wicked-systems",
         "highlight-constructive-humanist-agentics"
-      ]
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "software-before-code",
@@ -233,8 +244,12 @@
       "open_gaps": [
         "Recover current definition and owner-reviewed examples",
         "Compare to established design-by-contract/formal-methods practice",
-        "Show measurable value without implying universal novelty"
-      ]
+        "Show measurable value without implying universal novelty",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "boundary-first-ux",
@@ -256,8 +271,12 @@
       "open_gaps": [
         "Recover canonical flagship and current view contracts",
         "Test cross-view identity and accessibility",
-        "Distinguish aesthetic visualization from experimentally validated UX advantage"
-      ]
+        "Distinguish aesthetic visualization from experimentally validated UX advantage",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "mathematics-physics-computation",
@@ -285,7 +304,10 @@
         "Reconcile recent diagram and type-tree sources with current owner evidence",
         "Maintain separate mathematics, computation and physics claim standards",
         "Recover original geometric construction files only after rights/provenance review"
-      ]
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "economic-water-model",
@@ -307,8 +329,12 @@
         "Recover rights-cleared synthetic fixtures and exact executable version",
         "Validate joint versus isolated capacity in the reproducibility package",
         "Avoid treating synthetic feasibility as empirical economic proof",
-        "W1 source discovery located a November 21, 2026 working comparative prior-art audit and joint-access replay; its owner review, source-evidence receipts and rights clearance remain outstanding."
-      ]
+        "W1 source discovery located a November 21, 2026 working comparative prior-art audit and joint-access replay; its owner review, source-evidence receipts and rights clearance remain outstanding.",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     },
     {
       "facet_id": "ai-understanding-alignment-governance",
@@ -330,8 +356,12 @@
       "open_gaps": [
         "Separate mechanism explanation, interpretability, alignment and governance evidence",
         "Recover falsifiable benchmarks and matched baselines",
-        "Review delegated-authority examples and exclude unsupported safety certification claims"
-      ]
+        "Review delegated-authority examples and exclude unsupported safety certification claims",
+        "First-pass owner-source visit has been performed; historical W1 content coverage, independent verification and founder review remain incomplete."
+      ],
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "w1_first_pass_status": "initial_owner_source_visited"
     }
   ],
   "navigation_edges": [
@@ -421,12 +451,28 @@
     }
   ],
   "next_frontier": {
-    "frontier_id": "W1_UNASSIGNED",
-    "lifecycle": "not_started",
-    "chronological_bounds": null,
-    "facet_visit_count": 0,
+    "frontier_id": "W1_2026_11_16_TO_2026_11_23_PROVISIONAL",
+    "lifecycle": "first_pass_review_pending",
+    "chronological_bounds": {
+      "start": "2026-11-16",
+      "end": "2026-11-23",
+      "status": "provisional_source_creation_window"
+    },
+    "facet_visit_count": 8,
     "required_facet_visits": 8,
     "advancement_rule": "Each facet receives a documented outcome; this is not exhaustive archival completion",
-    "next_action": "W1 kickoff in WAVE_1_KICKOFF.md; continue newest-window eight-facet scan, locate current Codexware build without replacing its MVP, and reconcile consequential-systems highpoints."
+    "next_action": "Founder reviews eight-facet board before new public releases; Codexware deferred, complete deeper source verification selectively, and prepare next older wave only after recording disposition.",
+    "visit_completion": "eight_documented_first_pass_outcomes_not_source_complete",
+    "founder_review_status": "pending"
+  },
+  "publication_review": {
+    "mode": "founder_high_level_prepublication",
+    "overall_status": "pending",
+    "default_disposition": "hold",
+    "require_explicit_approval_for_new_public_release": true,
+    "board_path": "docs/frontier-0/FOUNDER_REVIEW_BOARD.md",
+    "existing_releases_unaffected": true,
+    "codexware_source_handling": "founder_deferred_nonblocking",
+    "scientific_claim_and_rights_gates_separate": true
   }
 }

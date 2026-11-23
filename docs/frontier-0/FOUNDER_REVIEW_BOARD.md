@@ -1,0 +1,58 @@
+# Founder Review Board — Frontier 0
+
+**Version:** draft v0.1, 2026-11-23  
+**Status:** pending high-level founder review; **no new research item approved for release by this board**  
+**Scope:** public-presentation candidates identified from a bounded first owner-source sweep  
+**Purpose:** allow selection, correction, deferral or exclusion *before* material is promoted for public-facing release  
+**Rights:** public documentation candidate only; see [Licensing](../../LICENSING.md) and [Publication Policy](../../PUBLICATION_POLICY.md)
+
+> **The recovery ledger is also an editorial decision interface. Discovery does not imply approval.**
+
+## Review policy
+
+For each facet, show the strongest supportable present-tense summary, candidate public demonstration, evidence limitations, and pending source work. Record a review disposition:
+
+- **Include candidate** — useful and acceptable for further public drafting, **not** automatic scientific/publication approval.
+- **Revise** — important but requires correction, narrowing, attribution, or different presentation.
+- **Hold** — retain and continue surveying; nothing newly promoted.
+- **Exclude** — preserve as historical/research material without promoting to the proposed public projection.
+
+Default for all new material: **Hold.** A founder review decision is required to propose a new public release, followed by independent source-owner claim, rights, disclosure, quality, and publication gates. A single "looks good" for the overall process is **not** a blanket approval of each scientific claim.
+
+## Eight-facet review table
+
+| Facet | Editorial highlight for review | Strongest bounded evidence / maturity | Current disposition |
+| --- | --- | --- | --- |
+| **1. Codexware** | Read-only, evidence-backed individual/institutional public-data analysis with inspectable plans | MVP exists as founder-reported in-flight work; implementation locator still missing | **Deferred by founder; no further lookup required for this sweep** |
+| **2. Paper Checking** | Verify what an author actually claims, which evidence exists, and which checks remain unperformed | A dated (Nov 1) candidate method design and **unexecuted** proposed 20-paper pilot; no running audit service shown | **Hold — founder review pending** |
+| **3. Consequential Systems & Repair** | Connect defect, authority, agency, human viability, consequences and repair | Existing socio-technical method and bounded human-viability reference; broader control-theoretic framing remains a hypothesis | **Hold — founder review pending** |
+| **4. Software Before Code** | Make domain/contract/state/invariant obligations explicit before code | Active manuscript v0.3, engineering doctrine and comparative validation plan; no independent prospective benefit established | **Hold — founder review pending** |
+| **5. Boundary First UX** | Design a *bounded semantic world* instead of treating screens as the primary object | Working launch paradigm with a documented three-renderer flagship design; public executable launch package not established | **Hold — founder review pending** |
+| **6. Mathematics, Physics & Computation** | Show typed constructions, admissibility, and proof/defect maps with native-domain evidence | One released **educational** n-ball package; many mathematical candidate/regime objects and physics proposals remain distinct and unverified | **Hold for additional releases; existing n-ball release unchanged** |
+| **7. Economic Water Model** | Separate aggregate stocks/flows from actual accessible, jointly feasible material allocations | Nov 21 comparative precedent audit and bounded synthetic work; no empirical economic or policy calibration | **Hold — founder review pending** |
+| **8. AI Understanding, Alignment, Explainability & Governance** | Representation sufficiency, why LLMs work (open), accountably delegated agency, and inspectable explanations | Foundational ML research program with finite diagnostic construction; no general explanation of modern LLMs or validated global alignment solution | **Hold — founder review pending** |
+
+## Review within Consequential Systems
+
+**A. Viability Control Theory for Wicked Systems — Hold as a working research framing.** It asks whether control and viability tools can preserve defensible trajectories through uncertain, contested and changing human/institutional constraints. Need definitions, prior-art comparison, admissibility criterion, counterexamples, and independent tests. It is *not* synonymous with the existing finite Human Viability Engineering toy network.
+
+**B. Constructive Human Agency / Constructive Humanist Agentics — Hold as a historic working synthesis.** A July 2026 synthesis provides an earlier intellectual source for capacity-expanding, authorized, contestable and repairable agency. It deserves a separate public narrative but not a claim of validated universal agency theory.
+
+These are prominent **subprogram-level highlights**, not ninth and tenth top-level facets. Their genealogy must be traced backwards while retaining prior wording and source context.
+
+## What needs the founder's judgment
+
+A short decision for each facet (include candidate, revise, hold or exclude) is sufficient for **editorial direction**. A deeper line-by-line proof review is not required for this high-level pass; scientific source owners and publication controls still carry the technical approval burden.
+
+Suggested high-level prompts: *Does this accurately describe the current state? Which example should represent it? Is the name right? Are any key omissions, contradictions or risks immediately apparent?* Replies may be as brief as "2 revise, 4 include candidate, all others hold" with a note.
+
+No new release is authorized until its own source/rights/claim review passes. The [existing n-ball education package](../../projects/n-ball-boundary-recursion/README.md) stays published; this draft board does not retroactively unpublish it.
+
+## Next controlled research actions
+
+1. Continue bounded historical source recovery across all non-Codexware facets without treating any of this board as approval.
+2. Hold Codexware in `founder_deferred_nonblocking`; resume only when the founder supplies the actual MVP.
+3. Maintain separate **source coverage**, **founder editorial disposition**, **scientific claim maturity**, and **publication/rights authorization**.
+4. At each breadth-first cohort boundary, present a digest of new/changed objects, counterevidence, and source-completeness gaps before proposing public promotion.
+
+**Provenance:** founder's current directly visible instruction and selected earlier conversation, paired with bounded read-only owner-source inspections. This is an editorial synthesis, not a verbatim transcript or complete research corpus audit. No private ChatGPT locator or private raw source text is published here.

@@ -18,7 +18,8 @@
     "navigation_edges",
     "research_relation_candidates",
     "confirmed_public_releases",
-    "next_frontier"
+    "next_frontier",
+    "publication_review"
   ],
   "properties": {
     "schema_version": {
@@ -195,20 +196,41 @@
         "facet_visit_count",
         "required_facet_visits",
         "advancement_rule",
-        "next_action"
+        "next_action",
+        "visit_completion",
+        "founder_review_status"
       ],
       "properties": {
         "frontier_id": {
           "type": "string"
         },
         "lifecycle": {
-          "const": "not_started"
+          "const": "first_pass_review_pending"
         },
         "chronological_bounds": {
-          "type": "null"
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end",
+            "status"
+          ],
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date"
+            },
+            "end": {
+              "type": "string",
+              "format": "date"
+            },
+            "status": {
+              "const": "provisional_source_creation_window"
+            }
+          }
         },
         "facet_visit_count": {
-          "const": 0
+          "const": 8
         },
         "required_facet_visits": {
           "const": 8
@@ -218,6 +240,59 @@
         },
         "next_action": {
           "type": "string"
+        },
+        "visit_completion": {
+          "const": "eight_documented_first_pass_outcomes_not_source_complete"
+        },
+        "founder_review_status": {
+          "enum": [
+            "pending",
+            "reviewed"
+          ]
+        }
+      }
+    },
+    "publication_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "overall_status",
+        "default_disposition",
+        "require_explicit_approval_for_new_public_release",
+        "board_path",
+        "existing_releases_unaffected",
+        "codexware_source_handling",
+        "scientific_claim_and_rights_gates_separate"
+      ],
+      "properties": {
+        "mode": {
+          "const": "founder_high_level_prepublication"
+        },
+        "overall_status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "reviewed"
+          ]
+        },
+        "default_disposition": {
+          "const": "hold"
+        },
+        "require_explicit_approval_for_new_public_release": {
+          "const": true
+        },
+        "board_path": {
+          "type": "string"
+        },
+        "existing_releases_unaffected": {
+          "const": true
+        },
+        "codexware_source_handling": {
+          "const": "founder_deferred_nonblocking"
+        },
+        "scientific_claim_and_rights_gates_separate": {
+          "const": true
         }
       }
     }
@@ -281,7 +356,10 @@
         "released_object_refs",
         "candidate_demo",
         "release_observation",
-        "open_gaps"
+        "open_gaps",
+        "founder_review_status",
+        "publication_disposition",
+        "w1_first_pass_status"
       ],
       "properties": {
         "facet_id": {
@@ -349,6 +427,27 @@
             "type": "string",
             "pattern": "^highlight-[a-z0-9-]+$"
           }
+        },
+        "founder_review_status": {
+          "enum": [
+            "pending",
+            "deferred",
+            "reviewed"
+          ]
+        },
+        "publication_disposition": {
+          "enum": [
+            "hold",
+            "include_candidate",
+            "revise",
+            "exclude"
+          ]
+        },
+        "w1_first_pass_status": {
+          "enum": [
+            "deferred_user_source_pending",
+            "initial_owner_source_visited"
+          ]
         }
       }
     },

@@ -2,7 +2,7 @@
 
 **Baseline date:** 2026-11-23  
 **Proposed source-creation window:** 2026-11-16 through 2026-11-23 (inclusive)  
-**Status:** **partially initiated; NOT a completed eight-facet survey**  
+**Status:** **eight first-pass outcomes documented; source completeness and founder review outstanding**  
 **Source class:** founder-directed visible conversation plus bounded read-only connected GitHub owner/source discovery  
 **Completeness:** selected excerpts and directory metadata, not source-complete transcript or corpus export  
 **Authority:** candidate source-discovery report only; no claim promotion, source-owner edit, license grant or release action
@@ -17,16 +17,22 @@ Under [RCBF-001](../REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md), W1 is the 
 
 | Facet | W1 state | Initial finding / outstanding work |
 | --- | --- | --- |
-| Public Codexware | **partial** | Connected GitHub repository listing, text search and branch-name discovery did not establish the in-flight MVP's exact implementation. It may be under a different repository name, branch or local-only workspace. Continue source-authoritative verification; do **not** infer absence or rebuild it. |
-| Paper Checking | **not started** | Resolve canonical verifier/pilot source and original dates; preserve unexecuted versus completed work distinction. |
+| Public Codexware | **deferred by founder** | The founder will provide the actual MVP source when retrieved. Do not infer absence, reconstruct it, or let this deferment block the other facets. This is a documented W1 outcome, not completed source verification. |
+| Paper Checking | **bounded owner visit recorded** | Inspected a Nov 1 candidate method/verification design and explicitly **unexecuted** proposed 20-paper pilot. No Nov 16–23 original research event established by these selected files; source-complete history remains open. |
 | Consequential Systems & Repair | **partial** | A current founder-proposed viability/control theory of wicked systems was identified. Selected socio-technical/agency sources were reviewed. A Nov 16 Git commit carries an earlier (Nov 15) **candidate Human Viability Engineering** finite synthetic reference; prior 15-test local report and six scenarios are not independent validation. |
-| Software Before Code | **not started** | Inspect current registered product owner and compare W1 source events. |
-| Boundary First UX | **not started** | Resolve recent diagram/UI changes against canonical product owner. |
-| Mathematics, Physics & Computation | **not started** | Recover newest source objects for numerical type trees, n-ball formalism and diagram lineage without treating charts as proofs. |
+| Software Before Code | **bounded owner visit recorded** | Current owner documentation has active v0.3 working manuscript, professional doctrine, validation plans and earlier version history. No independently validated comparative performance or W1-origin event established by this bounded read. |
+| Boundary First UX | **bounded owner visit recorded** | Inspected a working semantic UX paradigm, a civic-infrastructure flagship and three representational modes (world, non-spatial, timeline). Current public executable release and W1-original source event remain unverified. |
+| Mathematics, Physics & Computation | **bounded owner visit recorded** | Inspected mathematics router and status classification, physics proof/interpretation cautions and the public n-ball educational anchor. Recent type-tree/Mermaid source genealogy is not yet recovered; no new W1 proof claim established. |
 | Economic Water Model | **partial** | A Nov 21 Git commit records a working EWM comparative prior-art audit and joint-access replay, not a final novelty finding, empirical calibration, or policy result. The underlying source/evidence package requires owner review before public use. |
-| AI Understanding, Explainability, Alignment & Governance | **not started** | Survey source-owner ML/agency work from this cohort; evaluate provenance and independent tests. |
+| AI Understanding, Explainability, Alignment & Governance | **bounded owner visit recorded** | Inspected the Oct 11 Foundational ML program and its owner/evidence crosswalk. Finite continuation-sufficiency collisions are diagnostic examples, not general LLM explanations; no new W1 implementation or independent result established. |
 
-**W1 completion:** 0/8 completed visits. Three facets partially initiated; five not yet started. No W2 advancement authorized from this report.
+**W1 first-pass accounting:** **8/8 facets have a documented initial outcome**: five bounded owner visits, two partial visits (Consequential Systems and Economic Water Model), and Codexware deferred by the founder. **0/8 are certified source-complete. 0 new research releases are founder-approved.** This is a breadth-first editorial checkpoint, not exhaustive chronological recovery or a scientific verification result.
+
+## High-level founder review before publication
+
+Use the [Frontier-0 Founder Review Board](FOUNDER_REVIEW_BOARD.md). All newly recovered material defaults to **hold** until the founder explicitly marks its proposed public presentation as include candidate, revise, hold, or exclude.
+
+These editorial dispositions are **not** scientific validation, rights clearance, or public-release authorization. The reviewed board is a downstream projection; the existing Lab owns research/source authority.
 
 ## Git commit-date discovery versus original source dates
 
@@ -54,9 +60,10 @@ The proposed **Viability Control Theory for Wicked Systems** wording is a curren
 
 ## Next bounded transaction
 
-1. Identify the exact in-flight public Codexware implementation through an owner-confirmed source locator or directly verifiable build artifact; preserve its existing MVP scope.
-2. Complete the five not-yet-started W1 facet-source visits; further substantiate the three partial visits, recording original dates separately from commit/import dates.
-3. Reconcile consequential-systems highlights owner-locally; distinguish new viability hypothesis from older constructive-agentics work.
-4. Present bounded candidate public projections with corrections and rights gates. Only then consider W1 complete and select the next older cohort.
+1. Preserve the founder's explicit **Codexware deferment**; take no further MVP recovery action until the actual source is provided.
+2. Present this eight-facet bounded sweep for high-level founder review, with all new items defaulting to **hold**.
+3. Continue deeper source checks on the other seven facets and reconcile original creation dates against commit/import dates; no claim of exhaustive W1 archival coverage.
+4. Reconcile consequential-systems highlights owner-locally; distinguish the current viability hypothesis from earlier constructive agentics and the bounded finite synthetic reference.
+5. Maintain independent scientific, rights and publication gates; then schedule the next older chronological cohort under the reviewed presentation baseline.
 
-**Do not call this first wave complete until all eight facet visits have independently recorded outcomes.**
+**Eight initial outcomes have been recorded; the underlying historical source universe remains incompletely inspected.** Do not describe W1 as a complete historical recovery or as founder publication approval.

@@ -12,7 +12,8 @@
 - [Machine-readable manifest](manifest.json) — eight public facet cards, limited evidence/source coverage, known public-release anchor, typed navigation edges, and the proposed next wave.
 - [Manifest JSON Schema](manifest.schema.json) — explicit structural constraints; external JSON Schema validators can check a candidate manifest.
 - [Demonstration Atlas](DEMONSTRATION_ATLAS.md) — readable map and read-only visualization contract, including two consequential-systems research highpoints.
-- [First recovery wave kickoff](WAVE_1_KICKOFF.md) — initial 2026-11-16 through 2026-11-23 scoped source survey, explicit partial coverage and blocker inventory.
+- [First recovery wave ledger](WAVE_1_KICKOFF.md) — November 16–23 initial bounded eight-facet survey, original-versus-commit-date controls, and incomplete-source notes.
+- [Founder Review Board](FOUNDER_REVIEW_BOARD.md) — high-level include/revise/hold/exclude dispositions **before** new material proceeds toward public release.
 - [RCBF-001 recovery protocol](../REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md) — governing proposal for the chronology and reconciliation process.
 
 ## What Frontier 0 does and does not establish
@@ -31,6 +32,12 @@ The `public_nodes` and `navigation_edges` fields are presentation **routing**, n
 
 `facet_coverage.coverage_state=seed_only` means an initial public-description seed, **not** a completed chronological wave. `selected_public_release_verified` is used only for the public n-ball package, and does not imply comprehensive recovery of the mathematics, physics or computation corpus.
 
+## High-level editorial control
+
+The recovery ledger is a review instrument as well as a source survey. The founder can inspect each facet's proposed public story, evidence ceiling, risks and omissions, and choose **include candidate / revise / hold / exclude**. All new work starts on **hold**, distinct from source-owner scientific and rights approval.
+
+The founder has explicitly deferred the Codexware MVP until the actual implementation can be supplied. That missing source is **not** a blocker for the seven other facets. The existing n-ball educational release remains independently governed and unchanged.
+
 ## Governance and rights
 
 This file is a versioned editorial artifact, not an admitted internal Registry or standalone project release. It changes no internal product status, scientific claim, publication eligibility or execution authority.
@@ -41,4 +48,4 @@ A public artifact's release status must remain with its owning [project package]
 
 ## Next controlled operation
 
-Verify the in-flight Codexware MVP's actual implementation and rights boundaries; then run one bounded newest-to-older chronological window across **all eight facets**. Emit coverage states, provenance links, owner-local reconciliation tasks and candidate public projections. A deep historical exception must be documented before returning to the common window.
+Review the eight-facet high-level selection board; keep Codexware deferred until the founder supplies its actual MVP; deepen source review across the other seven facets and proceed backward only with declared source gaps, known claim ceilings and separate approval gates.
