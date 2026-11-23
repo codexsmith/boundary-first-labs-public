@@ -3,7 +3,7 @@
   "manifest_id": "RCBF-F0-PUBLIC-CANDIDATE-2026-11-23",
   "as_of": "2026-11-23",
   "lifecycle": "candidate_public_projection",
-  "scope": "Initial public-facing Frontier-0 inventory, not a private-corpus census or execution record",
+  "scope": "Initial public-facing Frontier-0 inventory, including candidate consequential-systems research highlights; not a private-corpus census, verification of the Codexware build, or an execution record",
   "source_posture": {
     "source_class": "bounded_visible_conversation_plus_selected_public_repository_files",
     "completeness": "selected_public_sources_only",
@@ -116,6 +116,22 @@
       "title": "AI Understanding, Explainability, Alignment & Governance",
       "public_path": null,
       "lifecycle": "candidate_index_node"
+    },
+    {
+      "node_id": "highlight-viability-wicked-systems",
+      "node_kind": "presentation_highlight",
+      "title": "Viability Control Theory for Wicked Systems",
+      "public_path": "research/consequential-systems/README.md",
+      "lifecycle": "working_research_framing",
+      "claim_ceiling": "Candidate research framework; no established new viability/control theory or calibrated human-viability kernel"
+    },
+    {
+      "node_id": "highlight-constructive-humanist-agentics",
+      "node_kind": "presentation_highlight",
+      "title": "Constructive Human Agency / Constructive Humanist Agentics",
+      "public_path": "research/consequential-systems/README.md",
+      "lifecycle": "working_synthesis_candidate",
+      "claim_ceiling": "Previously developed agency-preservation doctrine; not a general validated result"
     }
   ],
   "facet_coverage": [
@@ -139,7 +155,8 @@
       "open_gaps": [
         "Locate current in-flight implementation and verify build/rights status",
         "Confirm first dataset and reproducible analysis contract",
-        "Publish only with explicit source, license, privacy and review clearance"
+        "Publish only with explicit source, license, privacy and review clearance",
+        "Connected GitHub repository and branch discovery did not resolve the current Codexware MVP implementation; no absence or production-readiness conclusion follows."
       ]
     },
     {
@@ -169,7 +186,7 @@
       "facet_id": "consequential-repair",
       "label": "Consequential Systems & Repair",
       "presentation_role": "engineering_architecture",
-      "current_state": "working_methodology",
+      "current_state": "working_methodology_with_two_distinct_research_highlights",
       "coverage_state": "seed_only",
       "basis": [
         "founder_visible_conversation",
@@ -185,7 +202,13 @@
       "open_gaps": [
         "Choose a sanitized, consented, attributable case",
         "Bind each repair to original evidence and a reproducible check",
-        "Prohibit unsupported claims of full institutional closure"
+        "Prohibit unsupported claims of full institutional closure",
+        "Viability Control Theory for Wicked Systems: formalize contested objectives, viability constraints, interventions, affected-party agency and counterexamples; establish prior-art comparisons before claiming novelty.",
+        "Constructive Humanist Agentics: reconcile the July 2026 working synthesis and current agency doctrine with accountable ownership, measured agency preservation and review status."
+      ],
+      "subprogram_refs": [
+        "highlight-viability-wicked-systems",
+        "highlight-constructive-humanist-agentics"
       ]
     },
     {
@@ -368,6 +391,18 @@
       "to": "bfl-method",
       "relation": "references_current_method",
       "claim_effect": "none"
+    },
+    {
+      "from": "facet-consequential-repair",
+      "to": "highlight-viability-wicked-systems",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
+    },
+    {
+      "from": "facet-consequential-repair",
+      "to": "highlight-constructive-humanist-agentics",
+      "relation": "navigation_groups",
+      "claim_effect": "none"
     }
   ],
   "research_relation_candidates": [],
@@ -389,6 +424,6 @@
     "facet_visit_count": 0,
     "required_facet_visits": 8,
     "advancement_rule": "Each facet receives a documented outcome; this is not exhaustive archival completion",
-    "next_action": "Review Frontier-0 source identities, locate actual Codexware MVP, then admit first bounded reverse-chronological cross-facet cohort"
+    "next_action": "W1 kickoff in WAVE_1_KICKOFF.md; continue newest-window eight-facet scan, locate current Codexware build without replacing its MVP, and reconcile consequential-systems highpoints."
   }
 }

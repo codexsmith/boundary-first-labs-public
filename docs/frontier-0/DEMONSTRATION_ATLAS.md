@@ -11,7 +11,7 @@ The Lab's eight public presentation facets are distinct **routes** into shared r
 | --- | --- | --- |
 | Public Codexware | Inspect an individual–institutional data question and export the calculation's evidence | Current MVP reported in flight; public release **not verified** |
 | Paper Checking | See claims, supporting evidence, proof obligations and explicit unknowns | Service/pilot **not established as publicly executed** |
-| Consequential Systems & Repair | Trace a systems defect and check a bounded repair | No cleared public case package identified |
+| Consequential Systems & Repair | Trace a systems defect and check a bounded repair; explore viability and constructive human agency as separate research highlights | No cleared public case package or validated viability/control theory identified |
 | Software Before Code | Walk requirements → invariants → contracts → verified implementation | No cleared public method demo package identified |
 | Boundary First UX | Explore a common semantic object in multiple representations | No cleared BFUX demo package identified |
 | Mathematics, Physics & Computation | Explore a geometrical construction and an explicit representation-loss counterexample | [Public n-ball educational calibration](../../projects/n-ball-boundary-recursion/README.md) is published; not a new theorem |
@@ -34,6 +34,8 @@ flowchart TB
     E["Economic Water Model — candidate"]
     A["AI Understanding / Alignment / XAI / Governance"]
     N["n-ball public educational calibration"]
+    V["Viability Control Theory for Wicked Systems — proposed research framing"]
+    H["Constructive Humanist Agentics — prior working synthesis"]
 
     M --> C
     M --> P
@@ -44,11 +46,25 @@ flowchart TB
     M --> E
     M --> A
     F --> N
+    R --> V
+    R --> H
 
     click N "https://github.com/codexsmith/boundary-first-labs-public/tree/main/projects/n-ball-boundary-recursion" "Inspect released educational package"
 ```
 
 Arrows above mean **public narrative grouping and discoverability only**. They are not evidence of mathematical implication, project dependency, independent validation, or formal compositional equivalence.
+
+## Consequential Systems — two research highpoints
+
+These belong **under Consequential Systems & Repair**, not as new top-level products or newly admitted scientific Program identities.
+
+**Viability Control Theory for Wicked Systems** is a current, promising research framing: preserve or restore viable trajectories when objectives, controls, institutions, evidence and constraints are contested or changing. Distinguish classical viability theory, established control techniques and wicked-problem literature from any genuinely new contribution; the Lab has **not** yet demonstrated a general formal theory or an empirically calibrated human-viability floor.
+
+**Constructive Human Agency / Constructive Humanist Agentics** is an earlier, more extensively developed synthesis about building human capability without laundering away authority, accountability, consent, contestability or repair. The historical July 2026 source remains in the governed Lab, not mirrored here. This public summary does not promote the older working credo into an independently validated universal theory.
+
+Shared interface: viable continuation is not sufficient if it eliminates the agency of affected people. An institution's persistence cannot silently replace human viability as the objective.
+
+The [first-window recovery kickoff](WAVE_1_KICKOFF.md) distinguishes the current viability hypothesis from the targeted historical agency source.
 
 ## Read-only atlas contract
 
