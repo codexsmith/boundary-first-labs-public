@@ -16,7 +16,9 @@
 - [Founder Review Board](FOUNDER_REVIEW_BOARD.md) — high-level include/revise/hold/exclude dispositions **before** new material proceeds toward public release.
 - [W2 first-pass ledger](WAVE_2_KICKOFF.md) — eight bounded outcomes for Nov 10–15, one founder-deferred source, and explicit original-versus-Git-date corrections.
 - [W3 first-pass ledger](WAVE_3_KICKOFF.md) — Nov 9 owner/event grouping across 219 tracked Git commits, with eight bounded facet outcomes and five review candidates.
-- [W4 kickoff](WAVE_4_KICKOFF.md) — next source-origin day, Nov 8; synthetic adapter and Conway Life source-date corrections, no facet audits complete.
+- [W4 first-pass ledger](WAVE_4_KICKOFF.md) — Nov 8 owner-origin review, eight bounded facet outcomes, fail-closed certificate and negative-result highlights.
+- [W5 kickoff](WAVE_5_KICKOFF.md) — Nov 7 recovery queued, including original-source Riemann and quantum comparison countermodels.
+- [Normalized visit-record model](manifest.json) — W4 introduces `recovery_visits` records for future waves rather than adding a new per-wave field to all facet cards; W1–W3 legacy fields remain until a separate provenance-reviewed migration.
 - [RCBF-001 recovery protocol](../REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md) — governing proposal for the chronology and reconciliation process.
 
 ## What Frontier 0 does and does not establish

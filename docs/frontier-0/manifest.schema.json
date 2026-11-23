@@ -21,7 +21,8 @@
     "next_frontier",
     "publication_review",
     "recovery_cohorts",
-    "recovery_event_candidates"
+    "recovery_event_candidates",
+    "recovery_visits"
   ],
   "properties": {
     "schema_version": {
@@ -316,6 +317,13 @@
       "minItems": 1,
       "items": {
         "$ref": "#/$defs/recovery_event_candidate"
+      }
+    },
+    "recovery_visits": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "$ref": "#/$defs/recovery_visit"
       }
     }
   },
@@ -702,7 +710,7 @@
       "properties": {
         "event_id": {
           "type": "string",
-          "pattern": "^w3-[a-z0-9-]+$"
+          "pattern": "^w[0-9]+-[a-z0-9-]+$"
         },
         "title": {
           "type": "string",
@@ -753,6 +761,82 @@
         },
         "independently_verified_in_this_survey": {
           "const": false
+        }
+      }
+    },
+    "recovery_visit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visit_id",
+        "cohort_id",
+        "facet_id",
+        "visit_status",
+        "source_origin_evidence",
+        "summary",
+        "event_refs",
+        "source_complete",
+        "source_date_basis",
+        "source_class",
+        "review_status",
+        "publication_disposition"
+      ],
+      "properties": {
+        "visit_id": {
+          "type": "string",
+          "pattern": "^W[0-9]+-[0-9][0-9]$"
+        },
+        "cohort_id": {
+          "type": "string",
+          "pattern": "^W[0-9]+$"
+        },
+        "facet_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "visit_status": {
+          "enum": [
+            "founder_deferred",
+            "bounded_owner_origin",
+            "bounded_owner_adjacent",
+            "bounded_owner_context"
+          ]
+        },
+        "source_origin_evidence": {
+          "enum": [
+            "deferred",
+            "source_dated_in_window",
+            "adjacent_not_same_product",
+            "not_observed_in_bounded_sample"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 35
+        },
+        "event_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_complete": {
+          "const": false
+        },
+        "source_date_basis": {
+          "const": "bounded_owner_metadata"
+        },
+        "source_class": {
+          "const": "selected_owner_document_or_commit_metadata"
+        },
+        "review_status": {
+          "enum": [
+            "deferred_by_founder",
+            "pending"
+          ]
+        },
+        "publication_disposition": {
+          "const": "hold"
         }
       }
     }

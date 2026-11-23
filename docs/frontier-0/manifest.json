@@ -499,19 +499,19 @@
     }
   ],
   "next_frontier": {
-    "frontier_id": "W4_2026_11_08_EVENT_GROUPED",
+    "frontier_id": "W5_2026_11_07_EVENT_GROUPED",
     "lifecycle": "not_started",
     "chronological_bounds": {
-      "start": "2026-11-08",
-      "end": "2026-11-08",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
       "status": "provisional_source_creation_window"
     },
     "facet_visit_count": 0,
     "required_facet_visits": 8,
     "visit_completion": "not_started",
     "founder_review_status": "pending",
-    "advancement_rule": "Survey all eight facets before normal backward advancement; distinguish original Nov 8 source from Nov 9 integration events and keep Codexware founder-deferred.",
-    "next_action": "Investigate Nov 8 origin clusters: cross-domain adapter doctrine, CDAR-001 sensor construction, Conway Life parallel ASM collision, plus native math/physics and proof-owner events."
+    "advancement_rule": "Group the dense date by research owner/event, preserve negative results, and account for eight facet outcomes without conflating Git integration dates.",
+    "next_action": "Survey Nov7 source-origin events including RH Pass024 adversarial defect, CPB quantum countermodel studies, optical-obligation and Bricken source families; leave Codexware deferred."
   },
   "publication_review": {
     "mode": "founder_high_level_prepublication",
@@ -559,6 +559,18 @@
       "founder_review": "pending",
       "source_universe_exhausted": false,
       "report_path": "docs/frontier-0/WAVE_3_KICKOFF.md"
+    },
+    {
+      "id": "W4",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "facet_outcomes": 8,
+      "original_source_audits_complete": 0,
+      "scope": "bounded_first_pass",
+      "publication_decisions": "all_new_on_hold",
+      "founder_review": "pending",
+      "source_universe_exhausted": false,
+      "report_path": "docs/frontier-0/WAVE_4_KICKOFF.md"
     }
   ],
   "recovery_event_candidates": [
@@ -646,6 +658,256 @@
       "public_source_bytes": "not_included",
       "source_completeness": "selected_owner_excerpt",
       "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-rh-fail-closed",
+      "title": "Riemann Pass025 fail-closed rational matrix certificate prototype",
+      "facet_id": "mathematics-physics-computation",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-08",
+      "source_role": "candidate_verifier_repair",
+      "candidate_highlight": "Adversarially corrupted interval/code witnesses drove a stricter prototype that rejects missing or malformed rational evidence.",
+      "claim_ceiling": "Synthetic certificate validation only; historical 11,595 interval records are missing; no RH theorem, source rounding audit, or accepted historical Schur certificate.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-cross-domain-adapter-doctrine",
+      "title": "Lawful Cross-Domain Boundary Adapter doctrine",
+      "facet_id": "consequential-repair",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-09",
+      "source_role": "adopted_working_architecture",
+      "candidate_highlight": "A consequential crossing must declare preserved distinctions, loss, evidence and authority; a map alone does not authorize action.",
+      "claim_ceiling": "Founder-adopted working methodology, not an externally validated universal adapter theory or institutional/legal permission.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-cdar-synthetic-measurement",
+      "title": "CDAR-001 synthetic measurement-to-advice reference construction",
+      "facet_id": "software-before-code",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-09",
+      "source_role": "built_synthetic_engineering_candidate",
+      "candidate_highlight": "Six synthetic sensor traces reveal blind spots under identical samples and show contract-bound refusal rather than silent safety assertions.",
+      "claim_ceiling": "Owner-local synthetic build with local verification, not an independently admitted experiment, validated real sensor, or real-world decision system.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-life-finite-machine",
+      "title": "Conway Life finite semantics and glider collision witnesses",
+      "facet_id": "mathematics-physics-computation",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-09",
+      "source_role": "bounded_finite_machine_reconstruction",
+      "candidate_highlight": "Finite machine/quotient controls and a one-shot collision-based XOR observation reveal which distinctions a state-only summary loses.",
+      "claim_ceiling": "Pass01 source integrated Nov8 and Pass02 integrated Nov9, both Nov8-origin; observational XOR not a composable circuit gate or universality theorem.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-alpha-information-arc",
+      "title": "Electromagnetic coupling versus accessible information: bounded closure",
+      "facet_id": "mathematics-physics-computation",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-08",
+      "source_role": "bounded_empirical_source_and_negative_research",
+      "candidate_highlight": "A GlueX systematics/identifiability study and critical research-arc closure distinguish physical coupling from observational information.",
+      "claim_ceiling": "No physical universal information-loss rate equal to alpha, no measured independent alpha or first-principles QED selection; some calibration data unavailable.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-abt-bit-bootstrap",
+      "title": "ABT finite bit realization and guarded power-on model",
+      "facet_id": "mathematics-physics-computation",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-08",
+      "source_role": "finite_synthetic_calibration",
+      "candidate_highlight": "Local bit/read/hold/write countermodels distinguish syntax, semantic capability, encoding and physical readiness.",
+      "claim_ceiling": "Finite standard-library local calibration only; no real hardware proof, original Bricken equivalence or universal computational minimality.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    },
+    {
+      "event_id": "w4-cabp-finite-repair",
+      "title": "CABP Pass05 source-pinned quotient repair and composition",
+      "facet_id": "mathematics-physics-computation",
+      "owner_source_date": "2026-11-08",
+      "observed_commit_date": "2026-11-08",
+      "source_role": "finite_semantic_repair_candidate",
+      "candidate_highlight": "A bounded forest demonstrates that integer-equivalent states can differ in Boolean consequence; guarded sensor imports and finite repair expose continuation-loss choices.",
+      "claim_ceiling": "Model-specific finite semantics, not validated all-domain adapters, real institutional repair, or historical Bricken meaning.",
+      "verification_state": "selected_owner_record_inspected_not_independently_reexecuted",
+      "source_date_basis": "owner_recorded_not_independently_audited",
+      "founder_review_status": "pending",
+      "publication_disposition": "hold",
+      "public_source_bytes": "not_included",
+      "source_completeness": "selected_owner_excerpt",
+      "independently_verified_in_this_survey": false
+    }
+  ],
+  "recovery_visits": [
+    {
+      "visit_id": "W4-01",
+      "cohort_id": "W4",
+      "facet_id": "codexware",
+      "visit_status": "founder_deferred",
+      "source_origin_evidence": "deferred",
+      "summary": "Unfinished public Codexware MVP remains exclusively with founder for future retrieval. No source inspection or substitute implementation in W4.",
+      "event_refs": [],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "deferred_by_founder",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-02",
+      "cohort_id": "W4",
+      "facet_id": "paper-checking",
+      "visit_status": "bounded_owner_adjacent",
+      "source_origin_evidence": "adjacent_not_same_product",
+      "summary": "RH Pass025 proof-carrying certificate syntax and BIR skeptical verification are relevant techniques, but not a deployed paper-checking service or completed 20-paper pilot.",
+      "event_refs": [
+        "w4-rh-fail-closed"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-03",
+      "cohort_id": "W4",
+      "facet_id": "consequential-repair",
+      "visit_status": "bounded_owner_origin",
+      "source_origin_evidence": "source_dated_in_window",
+      "summary": "Founder-adopted Nov8 lawful cross-domain adapter doctrine sets typed preservation, loss, evidence and authority requirements. Formal universal calculus and real institutional authority remain open.",
+      "event_refs": [
+        "w4-cross-domain-adapter-doctrine"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-04",
+      "cohort_id": "W4",
+      "facet_id": "software-before-code",
+      "visit_status": "bounded_owner_adjacent",
+      "source_origin_evidence": "adjacent_not_same_product",
+      "summary": "Nov8 CDAR-001 locally built synthetic sensor-to-advice adapter demonstrates typed contracts and refusal, but remains owned by BIR, not a newly released Software Before Code build.",
+      "event_refs": [
+        "w4-cdar-synthetic-measurement"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-05",
+      "cohort_id": "W4",
+      "facet_id": "boundary-first-ux",
+      "visit_status": "bounded_owner_adjacent",
+      "source_origin_evidence": "adjacent_not_same_product",
+      "summary": "Nov8 Conway Life Pass01 includes a browser-local finite visual playground, but is an RL-RM research companion, not evidence of a BFUX flagship product release.",
+      "event_refs": [
+        "w4-life-finite-machine"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-06",
+      "cohort_id": "W4",
+      "facet_id": "mathematics-physics-computation",
+      "visit_status": "bounded_owner_origin",
+      "source_origin_evidence": "source_dated_in_window",
+      "summary": "Original Nov8 source families include RH Pass025 fail-closed matrix gate, ABT bit/boot finite calibration, Life finite-machine research and GlueX information identifiability; Nov7 RH24 and CPB quantum countermodels are predecessor/date-boundary inputs.",
+      "event_refs": [
+        "w4-rh-fail-closed",
+        "w4-life-finite-machine",
+        "w4-alpha-information-arc",
+        "w4-abt-bit-bootstrap",
+        "w4-cabp-finite-repair"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-07",
+      "cohort_id": "W4",
+      "facet_id": "economic-water-model",
+      "visit_status": "bounded_owner_context",
+      "source_origin_evidence": "not_observed_in_bounded_sample",
+      "summary": "No EWM-owned Nov8 original result verified in selected records. Synthetic sensor, flow and information-channel experiments do not constitute empirical economic calibration.",
+      "event_refs": [],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
+    },
+    {
+      "visit_id": "W4-08",
+      "cohort_id": "W4",
+      "facet_id": "ai-understanding-alignment-governance",
+      "visit_status": "bounded_owner_adjacent",
+      "source_origin_evidence": "adjacent_not_same_product",
+      "summary": "Guarded ABT bootstrapping and adapter source/authority separation have candidate governance relevance, but no Nov8 validated general LLM mechanism or AI alignment result was identified.",
+      "event_refs": [
+        "w4-abt-bit-bootstrap",
+        "w4-cross-domain-adapter-doctrine"
+      ],
+      "source_complete": false,
+      "source_date_basis": "bounded_owner_metadata",
+      "source_class": "selected_owner_document_or_commit_metadata",
+      "review_status": "pending",
+      "publication_disposition": "hold"
     }
   ]
 }

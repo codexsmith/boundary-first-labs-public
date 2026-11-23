@@ -64,6 +64,20 @@ Potentially powerful for **explaining how the Lab thinks and tests**, but none i
 
 The separately identified Nov 8-origin CDAR-001, Conway Life and adapter-doctrine work moves to [W4](WAVE_4_KICKOFF.md), despite Nov 9 Git integration.
 
+## W4 — November 8: source-origin review digest
+
+The [W4 first-pass ledger](WAVE_4_KICKOFF.md) records **8/8 bounded facet outcomes** from a 36-commit date-sample plus owner-dated source notes, with **0 source-exhaustive audits**.
+
+| Candidate high-level presentation | What it demonstrates | Disposition |
+| --- | --- | --- |
+| **RH verifier Pass025 / Pass024 defect** | The value of discovering a fail-open certificate gate and refusing a historical witness with omitted interval evidence | **HOLD** |
+| **Cross-domain adapter doctrine + CDAR-001** | Differences between typed source, observation, consequence, loss and authority; a synthetic sensor's hidden excursion | **HOLD** |
+| **Life / ASM finite machine** | A one-shot XOR observation does not supply typed output ports or composable future behavior | **HOLD** |
+| **Alpha/GlueX information arc** | A calibrated negative result: alpha is not inferred as a universal information-loss rate | **HOLD** |
+| **ABT bit-realization bootstrap and CABP repair** | A semantic label, model-relative observation or guarded calculation is not automatically a physical or institutional capability | **HOLD** |
+
+The [W5 kickoff](WAVE_5_KICKOFF.md) queues the **Nov7-origin** Riemann Pass024 audit and quantum CPB countermodels, even though those source packets were integrated into Git on Nov8. The work may supply compelling educational cases, but no novel mathematical or physical theorem is approved by this board.
+
 ## What needs the founder's judgment
 
 A short decision for each facet (include candidate, revise, hold or exclude) is sufficient for **editorial direction**. A deeper line-by-line proof review is not required for this high-level pass; scientific source owners and publication controls still carry the technical approval burden.
