@@ -35,3 +35,15 @@ Presence of files and a Git commit proves publication of this presentation, not 
 **Public scope:** architecture/readers' guides, explicit per-release rights metadata templates, publication gates, and public history controls only. No migration of private source archives, generated registers, mathematical results, software, or third-party materials.
 
 **Authority:** a navigation and release-governance refinement, not a research or institutional-status promotion.
+
+## 2026-11-23 addendum — First educational mathematics package
+
+**Authorized work:** Founder-directed request to begin populating the public structure after an n-ball/rod–ball first-package proposal.
+
+**Public project:** [n-ball-boundary-recursion](projects/n-ball-boundary-recursion/README.md).
+
+**Source class and completeness:** selected private Lab notes and routers, direct visible conversation, external mathematics references; bounded source review, not a lossless transcript or exhaustive historical audit. The earlier user-supplied share link is an architecture conversation locator and is not represented as the exact source URL of this new mathematical write.
+
+**Claim boundary:** educational mathematical reconstruction of inherited facts and BFL interpretive comparison. No mathematical novelty, external validation, product, or scientific-authority promotion.
+
+**Rights boundary:** no new generalized licensing grant; the release manifest explicitly leaves expressive reuse permissions pending. No private research files, images or third-party code were copied.

@@ -62,6 +62,12 @@ This is an engineering and research orientation, **not a claim that every domain
 
 The Lab's potential contribution may be a construction, relation, integration, proof, counterexample, implementation, or useful diagnostic—not necessarily a newly discovered mathematical object. Each claim is evaluated separately.
 
+## First public mathematical example
+
+[**The n-ball: construction, recursion, and what a summary forgets**](projects/n-ball-boundary-recursion/README.md) is the first self-contained educational calibration in the public repository. It distinguishes established geometry and Gamma-function formulas from the Lab's representation-level analysis, with a worked counterexample, reproducible checks, provenance, limitations, and clear rights boundaries.
+
+New readers can begin with [the five-minute missing-boundary example](start-here/01-the-model-forgot-the-boundary.md) or [the Boundary First field guide](method/BOUNDARY_FIRST_FIELD_GUIDE.md).
+
 ## Inherited foundations vs. BFL contribution
 
 **What we inherit:** existing mathematics, scientific results, software and systems theory, professional practice, and prior authors' work.

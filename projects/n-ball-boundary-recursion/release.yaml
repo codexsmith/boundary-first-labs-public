@@ -1,0 +1,65 @@
+# Public educational note. No repository-wide or package-level open license is granted.
+schema_version: "0.1"
+release_id: "BFL-PUB-EDU-NBALL-20261123-01"
+project_slug: "n-ball-boundary-recursion"
+title: "The n-Ball: Construction, Recursion, and What a Summary Forgets"
+version: "0.1.0"
+date: "2026-11-23"
+artifact_type: "educational_mathematical_calibration"
+release_status: "published_educational_exposition"
+formal_research_publication_status: "not_promoted"
+domain_tags: ["mathematics", "geometry", "representation", "method"]
+canonical_public_owner: "projects/n-ball-boundary-recursion/"
+source_completeness: "bounded_selected_private_sources_plus_external_math_references"
+source_references:
+  - "https://dlmf.nist.gov/5.5"
+  - "https://doi.org/10.3390/math10132212"
+  - "https://link.springer.com/article/10.1007/s00245-025-10250-w"
+chatgpt_conversation_url: null
+intellectual_provenance:
+  inherited_foundations:
+    - "Euclidean and L-infinity norm balls"
+    - "Fubini and polar integration"
+    - "Gamma-function n-ball volume formula"
+    - "Planar convex Steiner formula"
+  prior_art_and_influences:
+    - "See REFERENCES.md for cited external mathematics"
+  reconstruction_or_translation: "Typed comparison of geometric construction, scalar recurrence, measure and offset consequence"
+  bfl_specific_addition: "Public interpretive crosswalk and explicit representation-sufficiency diagnostic"
+  novelty_claim: null
+claims:
+  status: "established_background_plus_public_interpretive_exposition"
+  claim_ceiling: "No novel theorem, universal theory validation, physical claim, independent peer review or superior instrumentation claim"
+  assumptions:
+    - "integer n>=0, Euclidean norm and R>0"
+    - "planar compact convex bodies and Euclidean outward offsets"
+  evidence_paths: ["DERIVATION.md", "REPRODUCIBILITY.md", "claims.md"]
+  counterevidence_paths: ["DERIVATION.md"]
+  known_defects:
+    - "No matched-baseline study of benefit of typed presentation"
+    - "No independent domain expert review"
+  external_review: "not_performed"
+rights:
+  rights_review: "not_cleared_for_open_license"
+  authors:
+    - "Founder-directed mathematical program; new public editorial drafting with AI assistance"
+  copyright_holders: []
+  license_expression: null
+  licensed_paths: []
+  excluded_paths: ["all original prose and layout pending grant"]
+  third_party_materials: ["External mathematics cited by link only; no third-party figures or source code included"]
+  spdx_reuse_annotations: "not_applied"
+review:
+  owner_public_exposition_authorized: true
+  authorization_basis: "Explicit user request to start populating public repo following proposal of n-ball example"
+  line_by_line_owner_reviewed: false
+  domain_reviewed: false
+  rights_cleared_for_redistribution: false
+  privacy_security_checked: "no private data or third-party media included in public exposition"
+  formal_publication_steward_review: "not_requested"
+corrections:
+  contact_or_issue_url: "https://github.com/codexsmith/boundary-first-labs-public/issues"
+  supersedes: null
+  known_limitations:
+    - "No experimental validation of comparative methodological benefit"
+    - "No source-complete transcription of the private Lab's historical mathematics"

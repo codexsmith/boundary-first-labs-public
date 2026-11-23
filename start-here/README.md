@@ -14,4 +14,6 @@ For a first visit:
 
 Readers should not need to understand the private research corpus, its folder codes, or its agent machinery to navigate this repository. Public materials should explain familiar concepts first and introduce specialized formal vocabulary only when useful.
 
+For a concrete demonstration, start with [The Model Forgot the Boundary](01-the-model-forgot-the-boundary.md), then follow it to the n-ball mathematical package.
+
 **Current release stage:** the navigation framework is present; substantive project releases remain separately governed.

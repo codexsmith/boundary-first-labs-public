@@ -6,4 +6,6 @@ This is the public institutional introduction area: mission, people, origin, pri
 
 This folder is **not** a mirror of the private institutional core, internal governance, biographies, correspondence, funding records, or unpublished drafts. Add only approved public-facing material with authorship and rights reviewed.
 
+Read [what the Lab builds](WHAT_WE_BUILD.md) for a concise public account of research, instruments, and applications.
+
 For the analytical practice, continue to [Boundary First — Method](../method/README.md). For the bounded formal research program, see [Theory](../theory/README.md).

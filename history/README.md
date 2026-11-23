@@ -4,6 +4,8 @@ This lane preserves **public** decision history, release notes, corrections, sup
 
 A change to a published claim should preserve the earlier public version, the reason for the change, its evidentiary basis, and whether the outcome was corrected, narrowed, withdrawn, or superseded.
 
+The [first public mathematical calibration record](2026-11-23-first-mathematical-calibration.md) documents this repository's first educational mathematics package and its claim/rights boundaries.
+
 The first public governance release is recorded at [the root release record](../PUBLIC_RELEASE_RECORD.md). The public folder structure has its own [architecture decisions](../docs/decisions/README.md).
 
 Public revision history explains what was released; it never substitutes for source-owner evidence or newly licenses the underlying material.
