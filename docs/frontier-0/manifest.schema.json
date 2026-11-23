@@ -19,7 +19,8 @@
     "research_relation_candidates",
     "confirmed_public_releases",
     "next_frontier",
-    "publication_review"
+    "publication_review",
+    "recovery_cohorts"
   ],
   "properties": {
     "schema_version": {
@@ -205,7 +206,10 @@
           "type": "string"
         },
         "lifecycle": {
-          "const": "first_pass_review_pending"
+          "enum": [
+            "not_started",
+            "first_pass_review_pending"
+          ]
         },
         "chronological_bounds": {
           "type": "object",
@@ -230,7 +234,7 @@
           }
         },
         "facet_visit_count": {
-          "const": 8
+          "type": "integer"
         },
         "required_facet_visits": {
           "const": 8
@@ -242,7 +246,10 @@
           "type": "string"
         },
         "visit_completion": {
-          "const": "eight_documented_first_pass_outcomes_not_source_complete"
+          "enum": [
+            "not_started",
+            "eight_documented_first_pass_outcomes_not_source_complete"
+          ]
         },
         "founder_review_status": {
           "enum": [
@@ -294,6 +301,13 @@
         "scientific_claim_and_rights_gates_separate": {
           "const": true
         }
+      }
+    },
+    "recovery_cohorts": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/recovery_cohort"
       }
     }
   },
@@ -359,7 +373,10 @@
         "open_gaps",
         "founder_review_status",
         "publication_disposition",
-        "w1_first_pass_status"
+        "w1_first_pass_status",
+        "w2_first_pass_status",
+        "w2_source_origin_evidence",
+        "w2_first_pass_note"
       ],
       "properties": {
         "facet_id": {
@@ -448,6 +465,24 @@
             "deferred_user_source_pending",
             "initial_owner_source_visited"
           ]
+        },
+        "w2_first_pass_status": {
+          "enum": [
+            "founder_deferred_nonblocking",
+            "bounded_owner_visit"
+          ]
+        },
+        "w2_source_origin_evidence": {
+          "enum": [
+            "not_observed_in_bounded_sample",
+            "selected_source_within_window",
+            "date_boundary_predecessor_only",
+            "related_source_only"
+          ]
+        },
+        "w2_first_pass_note": {
+          "type": "string",
+          "minLength": 15
         }
       }
     },
@@ -558,6 +593,60 @@
         },
         "executable_public_service": {
           "type": "boolean"
+        }
+      }
+    },
+    "recovery_cohort": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "start",
+        "end",
+        "facet_outcomes",
+        "original_source_audits_complete",
+        "scope",
+        "publication_decisions",
+        "founder_review",
+        "source_universe_exhausted",
+        "report_path"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        },
+        "facet_outcomes": {
+          "type": "integer"
+        },
+        "original_source_audits_complete": {
+          "type": "integer"
+        },
+        "scope": {
+          "const": "bounded_first_pass"
+        },
+        "publication_decisions": {
+          "const": "all_new_on_hold"
+        },
+        "founder_review": {
+          "enum": [
+            "pending",
+            "in_review",
+            "reviewed"
+          ]
+        },
+        "source_universe_exhausted": {
+          "const": false
+        },
+        "report_path": {
+          "type": "string"
         }
       }
     }

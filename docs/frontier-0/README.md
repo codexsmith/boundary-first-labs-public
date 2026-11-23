@@ -14,7 +14,8 @@
 - [Demonstration Atlas](DEMONSTRATION_ATLAS.md) — readable map and read-only visualization contract, including two consequential-systems research highpoints.
 - [First recovery wave ledger](WAVE_1_KICKOFF.md) — November 16–23 initial bounded eight-facet survey, original-versus-commit-date controls, and incomplete-source notes.
 - [Founder Review Board](FOUNDER_REVIEW_BOARD.md) — high-level include/revise/hold/exclude dispositions **before** new material proceeds toward public release.
-- [W2 recovery kickoff](WAVE_2_KICKOFF.md) — next older original-source cohort (Nov 10–15), beginning with bounded source-date and Git-event discovery; no completed facet audits yet.
+- [W2 first-pass ledger](WAVE_2_KICKOFF.md) — eight bounded outcomes for Nov 10–15, one founder-deferred source, and explicit original-versus-Git-date corrections.
+- [W3 event-grouped kickoff](WAVE_3_KICKOFF.md) — dense Nov 9 cohort; proposed source-identity grouping and zero facet visits complete.
 - [RCBF-001 recovery protocol](../REVERSE_CHRONOLOGICAL_BREADTH_FIRST_RECOVERY.md) — governing proposal for the chronology and reconciliation process.
 
 ## What Frontier 0 does and does not establish

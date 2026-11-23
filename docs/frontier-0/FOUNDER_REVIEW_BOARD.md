@@ -40,6 +40,14 @@ Default for all new material: **Hold.** A founder review decision is required to
 
 These are prominent **subprogram-level highlights**, not ninth and tenth top-level facets. Their genealogy must be traced backwards while retaining prior wording and source context.
 
+## W2 — Source-origin review digest (November 10–15)
+
+The [W2 first-pass ledger](WAVE_2_KICKOFF.md) documents initial outcomes across all eight facets: seven bounded owner reads, Codexware founder-deferred, and **zero full historical audits**.
+
+The clearest in-window source is a **November 15 Human Viability Engineering** working reference. It offers a potential synthetic educational demonstrator distinguishing availability, access and gate-controlled feasibility; it does not establish a universal viability-control theorem. Two items committed November 10—the **P01–P14 Mathematical Proof Obligations** standard and an **Euler/Gamma/rod–ball** note—originate November 9 and are routed to [W3](WAVE_3_KICKOFF.md) for source chronology.
+
+No item is automatically marked approved. Consider these as **candidate talking points** when reviewing the overall Lab presentation. Each remains **Hold** until explicitly selected for further public preparation.
+
 ## What needs the founder's judgment
 
 A short decision for each facet (include candidate, revise, hold or exclude) is sufficient for **editorial direction**. A deeper line-by-line proof review is not required for this high-level pass; scientific source owners and publication controls still carry the technical approval burden.

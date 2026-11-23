@@ -160,7 +160,10 @@
       ],
       "founder_review_status": "deferred",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "deferred_user_source_pending"
+      "w1_first_pass_status": "deferred_user_source_pending",
+      "w2_first_pass_status": "founder_deferred_nonblocking",
+      "w2_source_origin_evidence": "not_observed_in_bounded_sample",
+      "w2_first_pass_note": "Founder will supply in-flight MVP; no source search and no assumption of absence."
     },
     {
       "facet_id": "paper-checking",
@@ -187,7 +190,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "not_observed_in_bounded_sample",
+      "w2_first_pass_note": "Nov 1 design and explicitly unexecuted 20-paper pilot predate W2; no W2-origin service evidence established."
     },
     {
       "facet_id": "consequential-repair",
@@ -222,7 +228,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "selected_source_within_window",
+      "w2_first_pass_note": "Nov 15 Human Viability Engineering working reference is a bounded synthetic model, not general viability-control proof."
     },
     {
       "facet_id": "software-before-code",
@@ -249,7 +258,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "not_observed_in_bounded_sample",
+      "w2_first_pass_note": "Current v0.3 manuscript and comparative plan inspected; no independently verified W2-origin advance established."
     },
     {
       "facet_id": "boundary-first-ux",
@@ -276,7 +288,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "not_observed_in_bounded_sample",
+      "w2_first_pass_note": "Current working paradigm and three-renderer civic flagship inspected; no W2-original release established."
     },
     {
       "facet_id": "mathematics-physics-computation",
@@ -307,7 +322,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "date_boundary_predecessor_only",
+      "w2_first_pass_note": "Nov 9 Euler/Gamma derivation and proof-obligation standard were committed Nov 10; original-source chronology remains Nov 9."
     },
     {
       "facet_id": "economic-water-model",
@@ -334,7 +352,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "related_source_only",
+      "w2_first_pass_note": "Nov 15 Human Viability reference names existing EWM, but is a different bounded engineering source; no W2 EWM original result verified."
     },
     {
       "facet_id": "ai-understanding-alignment-governance",
@@ -361,7 +382,10 @@
       ],
       "founder_review_status": "pending",
       "publication_disposition": "hold",
-      "w1_first_pass_status": "initial_owner_source_visited"
+      "w1_first_pass_status": "initial_owner_source_visited",
+      "w2_first_pass_status": "bounded_owner_visit",
+      "w2_source_origin_evidence": "not_observed_in_bounded_sample",
+      "w2_first_pass_note": "Oct 11 FML and earlier agency doctrine inspected; no W2-origin general LLM theory or agency validation."
     }
   ],
   "navigation_edges": [
@@ -451,19 +475,19 @@
     }
   ],
   "next_frontier": {
-    "frontier_id": "W1_2026_11_16_TO_2026_11_23_PROVISIONAL",
-    "lifecycle": "first_pass_review_pending",
+    "frontier_id": "W3_2026_11_09_DAY_EVENT_GROUPED",
+    "lifecycle": "not_started",
     "chronological_bounds": {
-      "start": "2026-11-16",
-      "end": "2026-11-23",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
       "status": "provisional_source_creation_window"
     },
-    "facet_visit_count": 8,
+    "facet_visit_count": 0,
     "required_facet_visits": 8,
-    "advancement_rule": "Each facet receives a documented outcome; this is not exhaustive archival completion",
-    "next_action": "Founder reviews eight-facet board before new public releases; Codexware deferred, complete deeper source verification selectively, and prepare next older wave only after recording disposition.",
-    "visit_completion": "eight_documented_first_pass_outcomes_not_source_complete",
-    "founder_review_status": "pending"
+    "visit_completion": "not_started",
+    "founder_review_status": "pending",
+    "advancement_rule": "One source-origin day may contain many Git events; batch by semantic owner/research event, not raw depth-first commit history.",
+    "next_action": "Survey Nov 9 by owner/event clusters and all eight presentation facets; retain provenance, date uncertainty and founder publication hold."
   },
   "publication_review": {
     "mode": "founder_high_level_prepublication",
@@ -474,5 +498,31 @@
     "existing_releases_unaffected": true,
     "codexware_source_handling": "founder_deferred_nonblocking",
     "scientific_claim_and_rights_gates_separate": true
-  }
+  },
+  "recovery_cohorts": [
+    {
+      "id": "W1",
+      "start": "2026-11-16",
+      "end": "2026-11-23",
+      "facet_outcomes": 8,
+      "original_source_audits_complete": 0,
+      "scope": "bounded_first_pass",
+      "publication_decisions": "all_new_on_hold",
+      "founder_review": "pending",
+      "source_universe_exhausted": false,
+      "report_path": "docs/frontier-0/WAVE_1_KICKOFF.md"
+    },
+    {
+      "id": "W2",
+      "start": "2026-11-10",
+      "end": "2026-11-15",
+      "facet_outcomes": 8,
+      "original_source_audits_complete": 0,
+      "scope": "bounded_first_pass",
+      "publication_decisions": "all_new_on_hold",
+      "founder_review": "pending",
+      "source_universe_exhausted": false,
+      "report_path": "docs/frontier-0/WAVE_2_KICKOFF.md"
+    }
+  ]
 }
