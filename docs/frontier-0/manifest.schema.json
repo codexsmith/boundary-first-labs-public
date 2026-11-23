@@ -310,7 +310,8 @@
             "enum": [
               "public_release_manifest",
               "public_repository_navigation",
-              "founder_visible_conversation"
+              "founder_visible_conversation",
+              "bounded_private_canonical_source_read"
             ]
           },
           "uniqueItems": true
