@@ -14,8 +14,6 @@ A research question is not a validated answer.
 4. **Counterexamples:** can a suitable native test expose when the proposed transfer fails or becomes meaningless?
 5. **Consequential adequacy:** do real-world uses bring additional physical, institutional, legal, safety, or evidentiary obligations that a formal analogy does not settle?
 
-Our first public [n-ball calibration](../projects/n-ball-boundary-recursion/README.md) demonstrates the kind of separation needed between object-level geometry, its scalar measure, and a later operation. It does not answer these larger research questions.
-
 ## Ground rules
 
 Classical mathematics stays classical. A new schema is not a newly discovered theorem. A successful program run is not scientific publication. Cross-domain similarity is not a universal ontology.

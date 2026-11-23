@@ -4,7 +4,7 @@
 
 ## Publicly available project packages
 
-- [n-ball-boundary-recursion](n-ball-boundary-recursion/README.md) — **educational mathematical calibration** (version 0.1.0), with claim and source boundaries. No mathematical novelty or general copyright license is asserted.
+No substantive research project is currently listed for distribution. Any future package requires founder review of disclosure scope and explicit publication approval.
 
 A future approved package uses a readable slug, for example:
 

@@ -52,6 +52,10 @@ Preserve meaningful failures and counterexamples. A revision should identify wha
 
 A future substantial release lives in one versioned [project package](projects/README.md) with its claim and rights metadata. Domain guides, [publications](publications/README.md), and [software](software/README.md) are navigation views, not second copies. Use the [release example](docs/templates/project/release.example.yaml) and [release checklist](docs/templates/RELEASE_CHECKLIST.md) only after rights and publication approval.
 
+## Founder review of disclosure scope
+
+Publicly visible repositories are not suitable staging areas for unreviewed substantive research. A request to create a folder, populate a skeleton, or explain the Lab does not grant continuing authorization to publish specific proofs, derivations, reproducibility bundles, executable methods, or other technical material. Apply a separate, affirmative review of disclosure scope **before** committing such material to a public branch. Rights clearance and scientific maturity checks are necessary but do not replace this disclosure review.
+
 ## Current repository scope
 
 The repository currently contains public orientation, architecture, documentation templates, and governance rules. It does **not** release or endorse additional theorems, physics results, professional legal conclusions, executable products, or third-party content. Each substantive research or software release requires its own review.

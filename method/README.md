@@ -13,6 +13,4 @@ A public working sequence:
 
 This is a practical public explanation, not a claim that BFL invented state machines, control theory, invariants, or formal methods.
 
-For an accessible operational walkthrough, read the [Boundary First Field Guide](BOUNDARY_FIRST_FIELD_GUIDE.md).
-
 For theory development and open questions, see [Theory](../theory/README.md). For actual release evidence, follow a [project](../projects/README.md).

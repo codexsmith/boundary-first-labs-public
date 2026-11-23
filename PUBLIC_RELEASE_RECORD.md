@@ -40,10 +40,22 @@ Presence of files and a Git commit proves publication of this presentation, not 
 
 **Authorized work:** Founder-directed request to begin populating the public structure after an n-ball/rod–ball first-package proposal.
 
-**Public project:** [n-ball-boundary-recursion](projects/n-ball-boundary-recursion/README.md).
+**Public project at that time:** an introductory mathematical example, subsequently withdrawn from the current public branch pending founder review. See [withdrawal record](history/2026-11-23-first-mathematical-calibration.md).
 
 **Source class and completeness:** selected private Lab notes and routers, direct visible conversation, external mathematics references; bounded source review, not a lossless transcript or exhaustive historical audit. The earlier user-supplied share link is an architecture conversation locator and is not represented as the exact source URL of this new mathematical write.
 
 **Claim boundary:** educational mathematical reconstruction of inherited facts and BFL interpretive comparison. No mathematical novelty, external validation, product, or scientific-authority promotion.
 
 **Rights boundary:** no new generalized licensing grant; the release manifest explicitly leaves expressive reuse permissions pending. No private research files, images or third-party code were copied.
+
+## 2026-11-23 — Withdrawal pending founder disclosure review
+
+**Authority:** founder explicitly requested withdrawal of the detailed educational geometry package to inspect its actual prior disclosure.
+
+**Change boundary:** remove the research package and related introductory walkthroughs from public `main`, withdraw active index references, and mark the earlier release record as superseded by this withdrawal.
+
+**Effect:** current branch no longer distributes the example as an active mathematical publication. No blanket licensing grant or scientific claim authority is created by the withdrawal.
+
+**History limitation:** historical public Git commits and any third-party copies are not removed by an ordinary follow-on commit. Do not describe this action as a confidentiality reset.
+
+**Review source:** the exact earlier published snapshot is retained by Git history at commit `1dcc4f41a9054b3e016659b70627e3dee7d561b0`; any future republication requires a new, specifically authorized disclosure review.

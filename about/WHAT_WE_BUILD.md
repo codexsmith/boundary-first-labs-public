@@ -19,9 +19,9 @@ Boundary First Labs combines research, software and systems engineering, and pub
 - A prototype or analysis can inform someone's judgment without being authorized to take action in the world.
 - An open repository makes material available to inspect, but does not license all protected expression for reuse.
 
-## Where to see real examples
+## Public examples
 
-Start with the public [n-ball construction and information-loss calibration](../projects/n-ball-boundary-recursion/README.md). It is a mathematical teaching artifact with explicit sources, tests, and claim limits—**not** proof of a broader research program.
+Specific research examples will be offered only after their disclosure scope and evidentiary status receive separate review.
 
 For permissions and publication standards, read [Licensing](../LICENSING.md) and [Publication Policy](../PUBLICATION_POLICY.md).
 
