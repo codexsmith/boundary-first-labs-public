@@ -12,6 +12,17 @@ Our work connects established mathematics, computer science, formal methods, and
 
 [Website](https://boundaryfirstlabs.com/) · [Intellectual provenance](INTELLECTUAL_PROVENANCE.md) · [Publication standards](PUBLICATION_POLICY.md) · [Licensing](LICENSING.md)
 
+## Explore this repository
+
+- **[Start here](start-here/README.md):** a public orientation and reading path.
+- **[About](about/README.md), [Method](method/README.md), [Theory](theory/README.md):** the institution, portable practice, and bounded formal research program are distinct.
+- **[Research](research/README.md):** discipline-based reader guides (mathematics, physics, computing, and consequential systems).
+- **[Projects](projects/README.md):** the owners of released source, evidence, claims, and scoped licensing.
+- **[Publications](publications/README.md) and [Software](software/README.md):** catalogs pointing back to one project owner.
+- **[Public architecture](docs/README.md), [Release history](history/README.md), [Scoped licenses](LICENSES/README.md):** rules and public continuity.
+
+These directories establish navigation and publication contracts. They do not imply that a research result, code package, or third-party work has been released.
+
 ## The practical question
 
 Every useful model preserves some distinctions and omits others. The problem begins when something it omits matters to a decision, a transformation, or someone who bears the consequence.
@@ -63,7 +74,7 @@ See [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) for the required disti
 
 ## About this public repository
 
-This is a curated **public presentation and distribution surface**. It is not a mirror of the governed internal research corpus. Initially it publishes the Lab's orientation and the rules for releasing later work; individual research results and software will be added only with their own provenance, maturity, and rights disclosures.
+This is a curated **public presentation and distribution surface**. It is not a mirror of the governed internal research corpus. At present it publishes the Lab's orientation, public navigation skeleton, and the rules for releasing later work; individual research results and software will be added only with their own provenance, maturity, and rights disclosures.
 
 **Publication is not validation.** A public document may contain working definitions, experiments, hypotheses, negative results, or unresolved questions. Its availability does not elevate those claims into established theorems or empirically verified outcomes.
 

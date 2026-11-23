@@ -20,15 +20,21 @@ See [Intellectual Provenance](INTELLECTUAL_PROVENANCE.md) for the distinction be
 
 | Material | Intended release approach |
 |---|---|
-| Standalone public code and executable examples | Explicit, file- or package-scoped open-source license, such as MIT or Apache-2.0 after rights review |
+| Standalone public code and executable examples | Apache-2.0 as the prospective default after rights review; MIT or another appropriate software license only by an explicit, scoped release decision |
 | Original research writing and explanatory figures | Explicit, publication-scoped CC BY 4.0 where approved |
 | Third-party assets, libraries, quotations, and datasets | Retain their original terms; identify required attributions and permissions |
 | Product-specific or commercial implementations | Separate release terms; a public description alone is not a software grant |
 | Names, logos, and brand identity | No permission for third-party branding is implied |
 
-**Listing MIT, Apache-2.0, or CC BY 4.0 as candidates does not apply those licenses.** A release must identify the applicable complete license, the covered files, and the authorized rights holder. Creative Commons licenses are generally not recommended for software code.
+**Naming Apache-2.0, MIT, or CC BY 4.0 as candidates does not apply those licenses.** A release must identify the applicable complete license, the covered files, and the authorized rights holder. Creative Commons licenses are generally not recommended for software code.
 
 Do not add a repository-wide `LICENSE` implying blanket coverage until a deliberate scope decision has been made. When open code ships, its own package may contain a `LICENSE` and appropriate notices.
+
+## Public folder and file-level licensing
+
+A public research or software project should carry its rights and release metadata in its own `projects/<slug>/release.yaml`. When a mixed project is approved for licensing, use path-level assignments and, where practical, SPDX file identifiers and REUSE-style license texts/notices. The reserved [LICENSES](LICENSES/README.md) directory and [project template](docs/templates/project/release.example.yaml) do not grant rights by themselves.
+
+Different rights holders, third-party materials, fonts, diagrams, data, trademarks and source files must not be silently collapsed under one blanket license. Files with unresolved rights must not be publicly released merely because neighboring files are open.
 
 ## Per-artifact licensing contract
 

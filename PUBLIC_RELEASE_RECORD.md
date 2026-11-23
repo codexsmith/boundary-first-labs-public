@@ -19,3 +19,19 @@ This presentation is informed by the existing internal Lab's institutional overv
 ## Verification boundary
 
 Presence of files and a Git commit proves publication of this presentation, not legal clearance of subsequent research or scientific validation of any claim. No code, mathematical results, products, or licensed third-party materials are released by this first documentation set.
+
+## 2026-11-23 addendum — Public structure and provenance locator
+
+**Action:** The repository owner subsequently supplied a share link and authorized creation of a refined public folder skeleton. This addendum preserves the earlier statement that a locator was unavailable at the time of the *initial* commit.
+
+**User-supplied locator (exact):** `https://chatgpt.com/share/e/6b04a61b-2ab0-8009-ba44-84bfbe3eade9?ogimg=plain`
+
+**`chatgpt_conversation_url`:** `https://chatgpt.com/share/e/6b04a61b-2ab0-8009-ba44-84bfbe3eade9?ogimg=plain`
+
+**Source class:** user-supplied share locator, directly visible instruction, and bounded read-only review of existing private Lab architecture, decisions, retrospectives, and publication controls. The linked page's contents were **not independently retrievable** in this execution environment.
+
+**Completeness:** bounded visible conversation span and selected repository sources; not a lossless transcript or full historical corpus audit.
+
+**Public scope:** architecture/readers' guides, explicit per-release rights metadata templates, publication gates, and public history controls only. No migration of private source archives, generated registers, mathematical results, software, or third-party materials.
+
+**Authority:** a navigation and release-governance refinement, not a research or institutional-status promotion.

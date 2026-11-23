@@ -1,0 +1,47 @@
+# EXAMPLE ONLY. Do not treat this template as a published or licensed artifact.
+schema_version: "0.1"
+release_id: null
+project_slug: "replace-with-approved-project-slug"
+title: "REPLACE WITH TITLE"
+version: "0.0.0-example"
+date: null
+artifact_type: "research_note"
+release_status: "not_published"
+domain_tags: []
+canonical_public_owner: null
+source_completeness: "unknown"
+source_references: []
+chatgpt_conversation_url: null
+intellectual_provenance:
+  inherited_foundations: []
+  prior_art_and_influences: []
+  reconstruction_or_translation: null
+  bfl_specific_addition: null
+  novelty_claim: null
+claims:
+  status: "unreviewed"
+  claim_ceiling: "No scientific claims authorized by template"
+  assumptions: []
+  evidence_paths: []
+  counterevidence_paths: []
+  known_defects: []
+  external_review: "not_performed"
+rights:
+  rights_review: "pending"
+  authors: []
+  copyright_holders: []
+  license_expression: null
+  licensed_paths: []
+  excluded_paths: []
+  third_party_materials: []
+  spdx_reuse_annotations: "not_applied"
+review:
+  founder_or_owner_approved: false
+  domain_reviewed: false
+  rights_cleared: false
+  privacy_security_checked: false
+  publication_steward_approved: false
+corrections:
+  contact_or_issue_url: null
+  supersedes: null
+  known_limitations: []

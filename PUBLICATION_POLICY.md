@@ -48,6 +48,10 @@ Novelty claims must survive native-domain comparison. If existing machinery alre
 
 Preserve meaningful failures and counterexamples. A revision should identify what changed, what evidence motivated it, and which earlier claims are narrowed, superseded, or withdrawn. Avoid silent rewriting of the public record.
 
-## First-release scope
+## Public package and navigation contract
 
-The initial public release introduces the Lab's identity and these rights/provenance/publication rules only. It does not publish or endorse new theorem, physics, legal, or product-readiness claims. Substantive research and code require a separate release review.
+A future substantial release lives in one versioned [project package](projects/README.md) with its claim and rights metadata. Domain guides, [publications](publications/README.md), and [software](software/README.md) are navigation views, not second copies. Use the [release example](docs/templates/project/release.example.yaml) and [release checklist](docs/templates/RELEASE_CHECKLIST.md) only after rights and publication approval.
+
+## Current repository scope
+
+The repository currently contains public orientation, architecture, documentation templates, and governance rules. It does **not** release or endorse additional theorems, physics results, professional legal conclusions, executable products, or third-party content. Each substantive research or software release requires its own review.
